@@ -1,0 +1,502 @@
+
+html ,body
+{
+	height :100%;
+	width:  :100%;
+	font-family: TaraSans-BETA;
+}
+
+/*----------------------Commonfor all cards margin dor left abd right-----------------------------------*/
+.padding
+{
+	    margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 150px;
+}
+
+
+/*-----------Two column section-----------------------*/
+
+.sectionpadding
+{
+	  margin-top: 30px;
+    margin-left: 110px;
+    margin-right: 10px;
+    margin-bottom:150px;
+}
+.sectionheading
+{
+	padding-top: 5%;
+}
+.sectionheading  .apitransfer
+{
+	
+  margin: 8px 0 16px;
+  
+  font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.5px;
+  color: #123456;
+}
+
+.sectionheading .api
+{
+
+  opacity: 0.8;
+  
+  font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #123456;
+}
+
+.sectionheading .transfer
+{
+	font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 1.71px;
+  color: #123456;
+   margin: 0 99px 8px 0;
+  padding: 0 6px;
+  background-color: #b2f7e2;
+  border:none;
+}
+
+.sectionheading .apikey
+{
+  margin: 24px 16px 0 0;
+  padding: 13px 36px 14px 38px;
+  border-radius: 6px;
+  background-color: #b2f7e2;
+  opacity: 0.9;
+  border:none;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+}
+
+.sectionheading .developer
+{
+	margin: 24px 16px 0 0;
+  padding: 13px 36px 14px 38px;
+  border-radius: 6px;
+  background-color: #fff;
+  opacity: 0.9;
+  border: solid 1px #b8bfdc;
+  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+
+}
+/*-------------------------------Heading-------------------------------*/
+
+.bgcolor
+{
+	 background-color: #f7f7fa;
+}
+.Rectangle {
+  width: 554px;
+  height: 300px;
+  margin: 42px 0 43px;
+  border-radius: 20px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+.tranfermain
+{
+	padding:120px 0px;
+}
+.overview
+{
+
+font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 1.71px;
+  color: #123456;
+  margin: 0 468px 8px 0;
+  padding: 0 6px;
+  background-color: #b2f7e2;
+  border:none;
+
+
+}
+.transfer
+{
+	margin-top: 30px;
+    margin-left: 140px;
+    margin-right: 80px;
+    background-color: #f7f7fa
+}
+.heading{
+    padding-top: 15%;
+    padding-left: 15%;
+}
+
+  .heading .headingtext
+{
+
+	 width: 555px;
+  height: 48px;
+  margin-bottom: 10px;
+  font-family: TaraSans-BETA;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #123456;
+
+
+}
+
+ .heading .text
+{
+	font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #123456;
+
+}
+
+/*````````````````````````Checkbox````````````````````````````````````````*/
+
+.checkbox-container {
+    display: flex;
+    align-items: center;
+}
+
+.checkbox-container label {
+    cursor: pointer;
+    display: flex;
+    font-size: 18px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #123456;
+}
+
+.checkbox-container input[type='checkbox'] {
+    cursor: pointer;
+    opacity: 0;
+    position: absolute;
+}
+
+.checkbox-container label::before {
+    content: '';
+    width: 1em;
+    height: 1em;
+    border-radius: 10px;
+    margin-right: .5em;
+    border: .05em solid #b2f7e2;
+    margin-top: 8px;
+        background-color: #b2f7e2;
+}
+
+.checkbox-container label:hover::before,
+.checkbox-container input[type='checkbox']:hover + label::before {
+    background-color: #b2f7e2;
+}
+
+
+.checkbox-container input[type='checkbox']:disabled + label,
+.checkbox-container input[type='checkbox']:disabled {
+    color: #aaa;
+    cursor: default;
+}
+
+.checkbox-container input[type='checkbox']:checked + label::before {
+    content: '\002714';
+    background-color: #b2f7e2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #123456;
+}
+
+.checkbox-container input[type='checkbox']:disabled + label::before {
+    background-color: #ccc;
+    border-color: #999;
+}
+
+/*-------------------------Use case------------------------------------*/
+.usecasemain
+{
+	    padding-top: 7%;
+	    padding-right: 10%;
+}
+
+.usecase
+{
+	font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 1.71px;
+  color: #123456;
+  border:none;
+  padding: 0 6px;
+  background-color: #b2f7e2;
+}
+
+.card .usecasecard
+{
+	    padding: 5px 0 12px 25px;
+}
+
+.padding h4
+{
+	margin: 8px 1px 8px 0;
+ 
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #123456;
+}
+
+
+.padding p
+{
+	 font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  color: #123456;
+  padding: 0 20px;
+}
+
+.card
+{
+	 margin: 0 0 12px 60px;
+
+  border-radius: 20px;
+  border: solid 1px #e9ecef;
+  background-color: #ffffff;
+}
+
+
+.card-title
+{
+	font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #123456;
+}
+
+.card-description{
+	width: 410px;
+  height: 48px;
+  margin: 4px 0 0;
+  opacity: 0.8;
+  font-family: TaraSans-BETA;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #123456;
+
+}
+
+#parentusecase
+{ 
+position: relative;
+ }
+.parentimage
+{
+	position: absolute;
+	    left: 88%;
+}
+.usecasechild
+{
+	position: absolute;
+}
+.use2
+{
+	position: absolute;
+	margin-left: 40%;
+    margin-top: 5%;
+	
+}
+.secondimage
+{
+	position: absolute;
+	margin-top: 28%;
+}
+
+
+/*-------------------------Started cards----------------------------*/
+
+		.lastcard
+		{
+			margin-top: 40%;
+			position: relative;
+		 	width:100%;
+			overflow: hidden;
+		 	display: flex;
+		 	justify-content: center;
+		 	align-items: center;
+			
+		}
+
+
+		.lastcard::before
+		 {
+		 	content: '';
+		 	position: absolute;
+		 	
+		 	left:50%;
+		 	width:100vh;
+		 	height:30vh;
+		 	background:#f7f7fa;
+		 	border-radius: 50%;
+		 	transform-origin: bottom;
+		 	transform: translateX(-50%) scale(5);
+		 }
+
+		.startedmain p
+		{
+
+  height: 48px;
+  font-family: TaraSans-BETA;
+  font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+      padding-top: 30px;
+}
+
+.card-profile {
+    margin-top: 30px;
+    text-align: center;
+}
+.card-profile .card-avatar {
+    margin: -50px auto 0;
+    border-radius: 50%;
+    overflow: hidden;
+    padding: 0;
+    width: 50%;
+   
+}
+
+.card-category
+{
+	
+  height: 30px;
+ 
+  opacity: 0.9;
+
+  font-size: 24px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.25;
+  letter-spacing: normal;
+  color: #123456;
+}
+
+.card
+{
+	padding:0;
+}
+.card-text
+{
+
+  margin: 8px 0 27px;
+  opacity: 0.8;
+  font-family: TaraSans-BETA;
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+}
+
+.cardbtn
+{
+
+  opacity: 0.9;
+  font-family: TaraSans-BETA;
+  font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.88;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+      width: 220px;
+  height: 48px;
+  
+ border:none;
+  border-radius: 6px;
+  background-color: #b2f7e2;
+}
+
+.card-body
+{
+	padding: 0px;
+	    padding-bottom: 12px;
+   
+    padding-top: 5px;
+}
+/*---------------------Background image-----------------------------------*/
+
+
+#parent
+{
+	position: relative;
+}
+
+.leftimage
+{
+	position: absolute;
+	    left: 90%;
+    bottom: 3%;
+}
+
+}

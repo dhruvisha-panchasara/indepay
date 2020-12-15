@@ -1,0 +1,737 @@
+
+
+
+html ,body
+{
+	height :100%;
+	width:  :100%;
+	font-family: TaraSans-BETA;
+}
+
+.navbar
+{
+	padding:16px;
+}
+
+.navbar .navbar-nav 
+{
+
+margin-left:25%;
+    margin-right: 13%;
+ 
+}
+
+.navbar .navbar-brand
+{
+	margin-left:5%;
+}
+
+ .navbar .nav-item .nav-link
+ {
+
+  font-size: 16px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+  padding:25px;
+}
+
+.menubar
+{
+	display: contents;
+	list-style: none;
+
+}
+
+.apikey
+{
+	font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.57;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+  border-radius: 6px;
+  border: solid 1px #b8bfdc;
+}
+.signup
+{
+	    margin-left: 30px;
+	    font-size: 16px;
+ 	font-weight: bold;
+ 	font-stretch: normal;
+ 	font-style: normal;
+ 	line-height: 1.57;
+ 	letter-spacing: normal;
+ 	text-align: center;
+ 	color: #123456;
+
+}
+
+
+.padding
+{
+	    margin-top: 3%;
+	    margin-right: 8%;
+    margin-left: 5%;
+}
+
+.padding .heading
+{ 
+	margin-top: 10%;
+}
+
+.padding .heading .h2
+{
+	font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.17;
+  letter-spacing: -0.5px;
+  color: #123456;
+      margin-right: 300px;
+
+}
+
+.padding .heading .api
+{
+	 font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.33;
+  letter-spacing: normal;
+  color: #123456;
+
+
+}
+
+.padding .heading .btn
+{
+	  font-size: 16px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+   border-radius: 6px;
+  background-color: #b2f7e2;
+  border:none;
+  padding: 13px 36px 14px 38px;
+
+}
+
+.services
+{
+	border-radius: 16px;
+  background-color: #123456;
+ margin: 5% 10%
+
+}
+
+.servicelogo
+{
+	margin-top: 52px;
+	margin-left:116px;
+	    margin-bottom: 72px;
+}
+.imglogo
+{
+	padding: 0 30px;
+}
+.padding .text
+{
+	font-size: 26px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.85;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+      margin-top: 18px;
+}
+
+.padding .logo
+{
+	margin:4% 15% ;
+}
+
+
+
+.lastcard
+{
+	margin: 5% 10%;
+	border-radius: 24px;
+  
+  	  background-color: #b2f7e2;
+}
+.started h1
+{
+	margin-top:5%;
+	font-size: 48px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.5;
+  letter-spacing: normal;
+  color: #123456;
+}
+
+.started h4
+{
+	margin-bottom:3%;
+	font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: rgba(18, 52, 86, 0.7);
+}
+
+.started .GetAPI
+{
+	margin-bottom: 8%;
+    margin-right: 2%;
+    border-radius: 6px;
+  	background-color: #123456;
+  	padding: 13px 20px 14px 19px;
+  	font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #ffffff;
+
+}
+
+ .started  .ContactSales
+ {
+ 	margin-bottom: 8%;
+   border-radius: 6px;
+  background-color: #b2f7e2;
+  	padding: 13px 20px 14px 19px;
+  	 font-size: 16px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+  
+
+ }
+
+ .usingindpay
+ {
+ 	font-size: 40px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.2;
+  letter-spacing: normal;
+  color: #123456;
+ }
+
+ .card .card-title
+ {
+ 	text-align:center;
+ 	font-size: 28px;
+  font-weight: bold;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.71;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+ }
+
+ .card .card-text
+ {
+ 	 font-size: 18px;
+  font-weight: normal;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 1.56;
+  letter-spacing: normal;
+  text-align: center;
+  color: #123456;
+ }
+
+ .card
+ {
+ 	border-radius: 25px;
+ }
+
+ .Benefits
+ {
+ 	
+  margin:1% 47%;
+      border: none;
+  background-color: #b2f7e2;
+   opacity: 0.8;
+  font-size: 12px;
+  font-weight: 500;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: 2;
+  letter-spacing: 1.71px;
+  color: #123456;
+ }
+
+
+/*Media Queries*/
+
+@media (max-width : 1650px)
+{
+.padding .heading .h2
+{
+	    font-size: 42px;
+	    margin-right:60px;
+}
+}
+
+@media (max-width : 1400px)
+{
+	.navbar-collapse{
+
+    margin-top: 20px;
+    margin-left: 100px;
+}
+
+.navbar .navbar-nav {
+     margin-left: 0px; 
+   
+}
+.navbar .nav-item .nav-link
+{
+
+	padding:20px;
+}
+
+.padding .heading {
+    margin-top: 4%;
+   }
+
+}
+/*-------------------------------------------------------*/
+@media (max-width : 1200px)
+{
+
+
+.navbar .navbar-nav {
+    margin-left: 0;
+
+    margin-right: 13%;
+}
+
+.navbar .nav-item .nav-link {
+    padding: 10px;
+}
+.apikey {
+    font-size: 14px;
+    }
+
+.padding .heading {
+    margin-top: 5%;
+   }
+
+.padding .heading .h2
+{
+	    font-size: 40px;
+	    margin-right:0px;
+}
+.padding .heading .btn {
+	padding:0;
+}
+
+.padding .logo {
+    margin: 4% 8%;
+}
+.padding .heading .api {
+    font-size: 16px;
+}
+
+.navbar-collapse{
+
+margin-left: 100px;
+    margin-top: 20px;
+}
+.singup{
+    margin-left: 20px;
+    margin-bottom: 1px;
+}
+.servicelogo {
+    margin-top: 25px;
+   margin-left:0px;
+    margin-bottom: 65px;
+}
+/* -----------------------------------------------*/
+ @media (max-width : 992px)
+ {
+
+.navbar-collapse
+{
+    padding-top: 20px;
+    margin-left: 35px;
+}
+
+.servicelogo {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left:0px;
+}
+.navbar .nav-item .nav-link
+{
+
+	font-size: 16px;
+	
+	padding: 18px 10px;
+
+}
+
+.navbar .navbar-nav {
+    margin-left: 5%;
+    margin-right: 3%;
+        margin-bottom: 23px;
+}
+
+.apikey
+{
+	    font-size: 12px;
+    margin-bottom: 25px;
+}
+
+	.signup
+ 	{
+ 		    margin-left: 8px;
+    margin-bottom: 22px;
+    font-size: 14px;
+ 	}
+
+.padding .heading
+{
+	    margin-top: 4%;
+}
+
+.padding .heading .h2
+{
+	font-size:46px;
+	line-height: 1.00;
+	letter-spacing: -0.5px;
+	margin-right: 200px;
+
+}
+
+.padding .heading .api
+{
+	 font-size: 20px;
+  line-height: 1.00;
+}
+
+
+ }
+
+
+ /*----------------------------------------------------------------------------*/
+
+ @media (max-width :768px)
+ {
+
+ 	.navbar-collapse {
+ 		margin-right: 0;
+ 		padding-top:0px;
+ 		margin-left:35px;
+ 	}
+
+ 	.navbar .nav-item .nav-link
+ 	{
+ 		font-size: 18px;
+ 		margin-right: 20px;
+ 		padding:12px;
+ 	}
+
+.servicelogo {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 95px;
+}
+
+ 	.signup
+ 	{
+ 		font-size: 16px;
+ 	margin-left: 50px;
+ 		margin-top: 15px;
+ 	}
+ 	.padding {
+ 		margin: 3%;
+ 		margin-right: 5%;
+ 	}
+
+ 	.padding .heading
+{
+	    margin-top: 5%;
+}
+ 	.padding .heading .h2
+ 	{
+
+ 		margin-right: 150px;
+ 		font-size: 40px;
+ 		line-height: 1.00;
+ 		letter-spacing: -0.5px;
+ 	}
+
+ 	padding .heading .api
+ 	{
+ 		font-size: 22px;
+ 	}
+
+
+ 	.started h1
+ 	{
+ 		margin-top: 10%;
+ 		font-size: 40px;
+ 	}
+ 	.started h4
+ 	{
+ 		margin-bottom: 6%;
+ 		font-size: 15px;
+ 	}
+
+
+ 	.padding .text
+ 	{
+ 		font-size: 26px;
+ 		margin-top: 20px;
+
+ 	}
+
+ 	.Benefits
+ 	{
+ 		font-size: 12px;
+ 		font-weight: 500;
+ 		line-height: 2;
+ 	}
+
+ 	.image
+ 	{
+ 		margin:1% 10%;
+ 	}
+
+/*----------------------------------------------------------------
+*/
+ @media (max-width :576px)
+ {
+ 
+.padding
+{
+	margin: 15px;
+
+}
+
+ .navbar .navbar-nav 
+{
+
+margin-left:10%;
+ 
+}
+
+.navbar-collapse
+{
+	margin-right: 0;
+}
+
+.navbar .nav-item .nav-link
+{
+
+	font-size: 16px;
+	margin-right: 20px;
+	padding:15px;
+
+}
+
+.servicelogo {
+    margin-top: 25px;
+    margin-bottom: 50px;
+    margin-left: 50px;
+}
+
+  .signup
+ {
+
+ 	
+ 	text-align: center;
+ 	
+ 	margin-top: 20px;
+ 
+ 	margin-right:22px;
+ 	
+ }
+
+.padding .heading .h2
+{
+	font-size:25px;
+	line-height: 1.00;
+	letter-spacing: -0.5px;
+	margin-right: 100px;
+
+}
+
+
+.padding .logo
+{
+	margin:0px ;
+}
+
+
+
+.padding .heading .api
+{
+	 font-size: 13px;
+  line-height: 1.00;
+}
+
+.services
+{
+	border-radius: 13px;
+  background-color: #123456;
+ margin: 5% 3%
+
+}
+
+.padding .text
+{
+	font-size: 20px;
+ 
+  line-height: 1.50;
+ 
+  text-align: center;
+  
+}
+
+
+
+ .Benefits
+ {
+ 	
+  margin:1% 45%;
+  
+ 
+  font-size: 10px;
+  font-weight: 500;
+
+  line-height: 2;
+  
+ }
+
+ .image
+ {
+ 	margin:5% 0;
+ }
+
+.started h1
+{
+	    margin: 5% 15%;
+    font-size: 35px;
+}
+    .started h4
+    {
+    margin-bottom: 8%;
+    font-size: 14px;
+   
+}
+
+.services{
+    margin-left: 10%;
+}
+
+.lastcard
+{
+	border-radius: 22px;
+    margin-left: 11%;
+    margin-right: 3%;
+    margin-top:0;
+    margin-bottom:0;
+}
+.abc
+{
+	    margin-left: 18px;
+ }
+}
+
+@media (max-width :445px)
+{
+	.padding .logo
+{
+	margin:0px ;
+}
+
+}
+
+
+/*---------------------------------------------------*/
+
+ @media (max-width :370px)
+ {
+ 
+
+	.servicelogo
+	{
+
+		margin-left: 2px;
+  
+    margin: 7px 0px;
+	}
+
+
+ .padding .heading .h2 {
+    font-size: 25px;
+    line-height: 1.00;
+    letter-spacing: -0.5px;
+    margin-right: 80px;
+}
+.started h1 {
+    margin: 5% 15%;
+    font-size: 32px;
+}
+
+.apikey
+{
+	padding: 13px 36px 14px 38px;
+}
+
+.padding .heading .btn {
+
+	padding: 10px 12px 10px 12px;
+}
+
+}
+
+/*------------------------------------------------*/
+
+ @media (max-width :420px)
+ {
+ 	.servicelogo
+	{
+
+		margin-left: 30px;
+  		 margin: 5px 0px;
+   
+	}
+
+
+}
