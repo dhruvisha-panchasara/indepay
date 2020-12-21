@@ -1,0 +1,552 @@
+html ,body
+{
+	height :100%;
+	width: 100%;
+	font-family: TaraSans-BETA;
+	font-stretch: normal;
+	font-style: normal;
+	line-height: normal;
+	letter-spacing: normal;
+	font-weight: bold;
+	border-radius: 8px;
+}
+/*-------------------------------------------*/
+.profile,.apimain
+{
+	font-size: 24px;
+	color: #25262f;
+}
+.padding
+{
+	padding: 10px 150px 16px 150px;
+}
+.breadcrumb {
+	margin-left:5%;
+}
+.breadcrumb .breadcrumb-item {
+	display: -ms-flexbox;
+	display: flex;
+	font-size: 24px;
+	color: #25262f;
+	padding:10px;
+}
+.breadcrumb .breadcrumb-item+.breadcrumb-item::before {
+	content: none;
+	font-weight: normal;
+	color: #25262f;
+}
+.breadcrumb-item.active {
+	color: #25262f;
+	text-decoration: underline;
+	text-decoration-color:#b2f7e2;
+}
+a
+{
+	color: #25262f;
+	font-weight: normal;
+}
+a:hover
+{
+	color: #25262f;
+	text-decoration: none;
+}
+.text{
+	font-size: 20px;
+	font-weight: bold;
+	color: #25262f;
+	padding: 13px 20px 0px 30px;
+}
+.copy
+{
+	padding-top:12px;
+	text-decoration: underline;
+	text-decoration-color:#b2f7e2;
+	 padding-left: 8%;
+}
+.upgrade
+{
+
+	height: 32px;
+	margin: 0px 19px 15px 26px;
+	padding: 6px 43px 7px 44px;
+	border-radius: 6px;
+	background-color: #b2f7e2;
+	font-size: 14px;
+	font-weight: bold;
+	text-align: center;
+	color: #123456;
+	border:none;
+}
+.Oval
+{
+	width: 32px;
+	height: 32px;
+	margin: 10px 0px 10px 40px;
+	background-color: #d8d8d8;
+}
+.card-Ovel
+{
+	margin: -20px 57px 16px 50px;
+	background-color: #d8d8d8;
+	width: 72px;
+	height: 72px;
+}
+.Ovel
+{
+	margin: 0px 57px 16px 57px;
+	background-color: #d8d8d8;
+	width: 72px;
+	height: 72px;
+}
+.card-title
+{
+	font-size: 20px;
+	text-align: center;
+	color: #25262f;
+}
+.card-body
+{
+	padding-bottom: 70px;
+}
+.card-discription
+{
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	color: #697683;
+	padding-bottom: 20px;
+	font-weight: normal;
+}
+.title
+{
+	font-size: 20px;
+	text-align: center;
+	color: #ffffff;
+}
+.discription
+{
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+	color: #697683;
+	font-weight: normal;
+	padding:10px 10px 43px 10px;
+}
+.indepay,.tara
+{
+	margin: 16px 0 8px;
+	padding: 11px 16px 0px 16px;
+	border-radius: 8px;
+	background-color: #f7f7fa;
+	margin: 10px 20px 10px 20px;
+}
+.tara
+{
+	margin: 10px 20px 35px 20px;
+}
+.heading
+{
+	    margin: 10px 0px 0px 40%;
+	font-size: 40px;
+	font-weight: bold;
+	line-height: 1.2;
+	color: #123456;
+	padding-top: 50px;
+}
+.bgcolor
+{
+	background-color: #f7f7fa;
+}
+.plan
+{
+	padding: 10px 200px 80px 200px;
+}
+.img
+{
+	position: absolute;
+	right: 92%;
+	margin-top: 8%;
+}
+.upgradecard
+{
+	background-color: #123456;
+	padding:20px 10px 0 10px;
+}
+.checkbox-container {
+	display: flex;
+	align-items: center;
+	margin-left: -20px;
+	margin-top: -10px;
+}
+.checkbox-container label {
+	cursor: pointer;
+	display: flex;
+	font-size: 18px;
+	font-weight: 500;
+	line-height: 1.56;
+	color: #123456;
+}
+.checkbox-container input[type='checkbox'] {
+	cursor: pointer;
+	opacity: 0;
+	position: absolute;
+}
+.checkbox-container label::before {
+	content: '';
+	width: 1em;
+	height: 1em;
+	border-radius: 10px;
+	margin-right: .5em;
+	border: .05em solid #b2f7e2;
+	background-color: #b2f7e2;
+}
+.checkbox-container label:hover::before,
+.checkbox-container input[type='checkbox']:hover + label::before {
+	background-color: #b2f7e2;
+}
+.checkbox-container input[type='checkbox']:disabled + label,
+.checkbox-container input[type='checkbox']:disabled {
+	color: #aaa;
+	cursor: default;
+}
+.checkbox-container input[type='checkbox']:checked + label::before {
+	content: '\002714';
+	background-color: #b2f7e2;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	color: #123456;
+}
+.checkbox-container input[type='checkbox']:disabled + label::before {
+	background-color: #ccc;
+	border-color: #999;
+}
+
+@media (max-width : 1400px)
+{
+	.copy {
+		padding-top: 15px; 
+		padding-left:20px;
+	}
+	.plan {
+    padding: 10px 100px 10px 120px;
+}
+	.text {
+		padding: 14px 20px 0px 40px;
+	}
+	.heading {
+		margin: 10px 0px 0px 250px;
+		font-size: 32px;
+	}
+	.card-discription {
+		padding: 0px 20px 20px 20px;
+	}
+	.card-Ovel {
+	margin: -20px 60px 16px 60px;
+	}
+	.heading {
+		margin: 10px 0px 0px 35%;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 70px;
+}
+.upgrade {
+    padding: 6px 16px 7px 16px;
+    margin: 0px 19px 50px 70px;
+}
+.discription {
+   padding: 10px 10px 25px 10px
+}
+}
+@media (max-width : 1200px)
+{
+	.copy {
+		padding-top: 15px; 
+		padding-left:20px;
+	}
+	.plan {
+    padding: 10px 150px 10px 160px;
+	}
+	.text {
+		padding: 14px 20px 0px 40px;
+	}
+	.heading {
+		margin: 10px 0px 0px 35%;
+		font-size: 32px;
+	}
+	.card-discription {
+		padding: 0px 20px 20px 20px;
+		font-size:14px;
+	}
+	.card-Ovel {
+		margin: -20px 57px 16px 35px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 50px;
+}
+.upgrade {
+    padding: 6px 16px 7px 16px;
+    margin: 0px 19px 15px 40px;
+}
+.discription {
+   padding: 10px 10px 25px 10px
+}
+@media(max-width : 1020px)
+{
+	.Ovel {
+    margin: 0px 57px 16px 40px;
+}
+	.upgrade
+{
+	padding: 6px 10px 7px 10px;
+}
+.discription {
+    padding: 10px 10px 12px 10px;
+}
+
+}
+@media (max-width : 992px)
+{
+	.padding {
+		padding: 0px 0px 10px 20px;
+	}
+	
+	.copy {
+		padding-top: 15px; 
+		padding-left:0px;
+	}
+	.text {
+		padding: 14px 20px 0px 40px;
+	}
+	.heading {
+    margin: 10px 0px 0px 250px;
+    font-size: 32px;
+	}
+	.card-body
+	{
+		padding-bottom: 0px;
+	}
+	.card-discription {
+		padding: 0px 20px 20px 20px;
+		font-size:14px;
+	}
+	.card-Ovel {
+		margin: -20px 57px 16px 30px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 30px;
+	}
+	.upgrade
+{
+	padding: 6px 10px 7px 10px;
+}
+.discription {
+    padding: 10px 10px 12px 10px;
+}
+}
+
+@media(max-width: 900px)
+{
+	.plan {
+		padding: 10px 100px 10px 100px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 30px;
+}
+.upgrade
+{
+	padding: 6px 10px 7px 10px;
+}
+.discription {
+    padding: 10px 10px 13px 10px;
+}
+}
+@media(max-width: 840px)
+{
+	.heading {
+    margin: 10px 0px 0px 250px;
+    font-size: 32px;
+	}
+	.card-body
+	{
+		padding-bottom: 0px;
+	}
+	.card-discription {
+		padding: 0px 20px 20px 20px;
+		font-size:14px;
+	}
+	.card-Ovel {
+		margin: -20px 57px 16px 25px;
+	}
+	.plan {
+    padding: 10px 60px 10px 80px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 35px;
+	}
+    .discription {
+    padding: 10px 10px 13px 10px;
+}
+}
+@media (max-width : 768px)
+{
+	.text {
+		padding: 14px 20px 0px 50px;
+	}
+	.plancard
+	{
+		margin-bottom:10px;
+	}
+	.heading {
+		margin: 10px 0px 0px 30%;
+		font-size: 32px;
+	}
+	.plan {
+		padding: 10px 160px 10px 160px;
+	}
+	.card-body
+	{
+		padding-bottom: 0px;
+	}
+	.card-discription {
+		padding: 0px 20px 20px 20px;
+	}
+	.card-Ovel {
+		margin: -20px 50px 16px 140px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 150px;
+	}
+ .upgrade {
+    margin: 0px 19px 15px 120px;
+    }
+    .discription {
+    padding: 10px 10px 13px 10px;
+}
+}
+@media (max-width :700px)
+{
+	.card-Ovel {
+    margin: -20px 50px 16px 140px;
+}
+.Ovel {
+    margin: 0px 57px 16px 150px;
+}
+.upgrade {
+    margin: 0px 19px 15px 140px;
+}
+}
+
+@media (max-width :650px)
+{
+	.card-Ovel {
+		margin: -20px 50px 16px 100px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 105px;
+	}
+	.upgrade {
+    margin: 0px 19px 15px 110px;
+}
+}
+
+@media (max-width :576px)
+{
+	.padding
+	{
+		padding: 0px 20px 10px 20px;
+	}
+	.copy {
+		padding-top: 0px; 
+		padding-left: 3%
+	}
+	.text {
+		padding: 14px 20px 0px 10px;
+	}
+	.plancard
+	{
+		margin-bottom:10px;
+	}
+	.heading {
+		margin: 10px 0px 0px 120px;
+		font-size: 32px;
+	}
+	.plan {
+		padding: 10px 100px 10px 110px;
+	}
+	.card-body
+	{
+		padding-bottom: 0px;
+	}
+	.card-discription {
+    padding: 0px 20px 20px 20px;
+	}
+	.card-Ovel {
+    margin: -20px 57px 16px 98px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 100px;
+	}
+	.upgrade {
+    margin: 0px 19px 15px 80px;
+}
+
+}
+@media (max-width :445px)
+{
+	.text {
+		padding: 14px 20px 0px 30px;
+	}
+	.heading {
+		margin: 10px 0px 0px 80px;
+		font-size: 30px;
+	}
+	.plan {
+		padding: 10px 70px 10px 90px;
+	}
+	.card-body
+	{
+		padding-bottom: 0px;
+	}
+	.card-discription {
+    padding: 0px 10px 20px 10px;
+	}
+	.card-Ovel {
+		margin: -20px 57px 16px 75px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 90px;
+	}
+	.upgrade {
+    margin: 0px 19px 15px 50px;
+	}
+}
+
+@media (max-width: 420px)
+{
+	.card-Ovel {
+		margin: -20px 57px 16px 65px;
+	}
+	.Ovel {
+    margin: 0px 57px 16px 60px;
+}
+}
+
+@media (max-width: 380px)
+{
+	.text {
+		padding: 14px 20px 0px 40px;
+	}
+
+	.heading {
+		margin: 10px 0px 0px 55px;
+		font-size: 27px;
+	}
+	.card-discription {
+		font-size:14px;
+	}
+	.card-Ovel {
+		margin: -20px 57px 16px 60px;
+	}
+
+}
