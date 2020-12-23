@@ -1,61 +1,53 @@
-
 html ,body
 {
-	height :100%;
-	width:  :100%;
-	font-family: TaraSans-BETA;
+  height :100%;
+  width:  :100%;
+  font-family: TaraSans-BETA;
   font-stretch: normal;
   font-style: normal;
+  letter-spacing: normal;
+  color: #123456;
 }
-/*-------------------------Header-----------------------------*/
 .image
 {
-	position:absolute;
-	margin-left: 83%;
+  position:absolute;
+  margin-left: 83%;
 }
 .header
 {
-	width:100%;
+  width:100%;
 }
 .startuptext
 {
-	padding-top: 6%;
+  padding-top: 6%;
 }
-/*--------------------DropDown-------------------------*/
-.menubar
-{
-	display: contents;
-	list-style: none;
-}
+/*---------------------DropDown-------------------------*/
 .padding
 {
-	    margin-top: 3%;  
+   margin-top: 3%;     
 }
 .padding .heading
 { 
-	margin-top: 6%;
-	padding-right: 110px;
+  margin-top: 6%;
+  
 }
 .padding .heading .headingtext
 {
-	font-size: 48px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 1.17;
   letter-spacing: -0.5px;
-  color: #123456;
 }
 .padding .heading .api
 {
-	 font-size: 18px;
+   font-size: 18px;
   line-height: 1.33;
-  color: #123456;
 }
 .padding .heading .btn
 {
-	  font-size: 16px;
+    font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: #123456;
    border-radius: 6px;
   background-color: #b2f7e2;
   border:none;
@@ -63,340 +55,315 @@ html ,body
 }
 .apikey
 {
-	font-size: 16px;
+  border-radius: 6px;
+  border: solid 1px #b8bfdc;
+  margin-right: 20px;
+  background-color: #b2f7e2;
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  padding: 13px 36px 14px 38px;
+}
+.signup
+{
+  margin-left: 30px;
+  font-size: 16px;
   font-weight: bold;
   line-height: 1.57;
   text-align: center;
   color: #123456;
-  border-radius: 6px;
-  border: solid 1px #b8bfdc;
-  margin-right: 20px;
-}
-.signup
-{
-	    margin-left: 30px;
-	    font-size: 16px;
- 	font-weight: bold;
- 	line-height: 1.57;
- 	text-align: center;
- 	color: #123456;
 }
 .box
 {
-	width:600px;
-	height:400px;
-	padding:;
+  width:600px;
+  height:400px;
 }
 .padding
 {
-	 margin:3% 15% 0 4%;
+   margin:3% 15% 0% 4%;
 }
 /*------------------Twocolumn section-----------------------*/
 .two-column
 {
-	margin-left: 4%;
+  margin-left: 4%;
 }
 .two-column .heading
 { 
-	margin-top: 7%;
+  margin-top: 7%;
 }
-
 .two-column .heading .h2
 {
-	font-size: 48px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 1.17;
   letter-spacing: -0.5px;
-  color: #123456;
-   margin-right: 250px;
-
+  margin-right: 250px;
 }
-
 .two-column .heading .api
 {
-	 font-size: 18px;
+   font-size: 18px;
   line-height: 1.33;
-  color: #123456;
 }
-
 .two-column .heading .btn
 {
-	  font-size: 16px;
+    font-size: 16px;
   font-weight: 500;
   text-align: center;
-  color: #123456;
    border-radius: 6px;
   background-color: #b2f7e2;
   border:none;
   padding: 13px 36px 14px 38px;
 }
-
 /*---------------------AddBackgroundImage-------------------------*/
-
-
 .menubaritem
 {
-	position:absolute;
-	margin-left:70%;
+  position:absolute;
+  margin-left:70%;
 }
 #parent
 {
-	position: relative;
-	 margin-top: 100px;
+  position: relative;
+      margin-top: 100px;
 }
 .leftimage
 {
-	position:absolute;
-	left: 89%;
-	top: 3%;
+  position:absolute;
+  left: 89%;
+  top: 3%;
 }
 .cardtext
 {
-	position:absolute;
-	top: 40px;
+  position:absolute;
+        top: 40px;
 }
 #benefitsparent
 {
-	position: relative;
+  position: relative;
 }
 .indepaytext
 {
-	position:absolute;
-	margin-left: 41%;
+  position:absolute;
+  margin-left: 41%;
     padding-top: 15px;
     font-size: 40px;
   font-weight: bold;
   line-height: 1.2;
-  color: #123456;
 }
 .childusing
 {
-	position:absolute;
+  position:absolute;
 }
 .benefitscard
 {
-    padding:210px 11% 0% 10%;
+padding:210px 11% 0% 10%;
 }
-.benefitimage
-{
-	position: absolute;
-	   
-    left: 83%;
+.benefitimage {
+    position: absolute;
+    left: 84%;
+    top: 93px;
 }
 .benefitstext
 {
-	position:absolute;
-	margin-left: 45%;
-  top: 20%;
+  position:absolute;
+  margin-left: 45%;
+    top: 20%;
 }
 #usingparent
 {
-	position: relative;
-	bottom: 13%;
+  position: relative;
+        bottom: 13%;
 }
 .mainimage
 {
-	position: relative;
-	left: 84%;
+  position: relative;
+  left: 84%;
 }
 .usingchild
 {
-	position:absolute;
-	top: 33%;
+  position:absolute;
+  top: 33%;
 }
 .usingindepay
 {
-    margin:3% 12% 0% 4%;
+    margin:3% 12% 0 4%;
 }
 #parentindepay
 {
-	position: relative;
+  position: relative;
 }
 .parentimage
 {
-	position:absolute;
+  position:absolute;
 }
 .secondimage
 {
-	position: absolute;
+  position: absolute;
 }
 /*-------------------ClientServiceLOGO----------------------------*/
 .services
 {
-	border-radius: 16px;
+  border-radius: 16px;
   background-color: #123456;
   margin-left: 140px;
 }
 .servicelogo
 {
-    margin:52px 0px 50px 150px;
+  margin-top: 52px;
+      margin-left: 150px;
+      margin-bottom: 50px;
 }
 .imglogo
 {
-	padding: 0 30px;
+  padding: 0 30px;
 }
 .servicestext .text
 {
-	font-size: 26px;
+  font-size: 26px;
   font-weight: bold;
   line-height: 1.85;
   text-align: center;
   color: #ffffff;
-   margin-top: 48px;  
+  margin-top: 48px; 
 }
 /*-------------------------Benefits card---------------------------------------------------*/
  .usingindpay
  {
- 	font-size: 40px;
+  font-size: 40px;
   font-weight: bold;
   line-height: 1.2;
-  color: #123456;
  }
+ .Rectangle {
+ padding: 40%;
+    border-top-left-radius: 25px;
+    border-top-right-radius: 25px;
+  background-color:#f7f7fa;
+}
 /*-------------------------BenefitButton-------------------------------*/
  .Benefits
  {
- 	  margin-top: 4%;
- 	margin-left: 48%;
+  margin-top: 4%;
+  margin-left: 48%;
   border: none;
- background-color: #b2f7e2;
+  background-color: #b2f7e2;
   opacity: 0.8;
   font-size: 12px;
   font-weight: 500;
   line-height: 2;
   letter-spacing: 1.71px;
-  color: #123456;
   position:absolute;
  }
 .indepaytext h3
 {
-	 padding-top: 25px;
+  padding-top: 25px;
   font-size: 40px;
   font-weight: bold;
   line-height: 1.2;
-  color: #123456;
   margin-top: 70px;
 }
 /*---------------Using indepay card-----------------------------------*/
  .card
  {
- 	border-radius: 25px;
+  border-radius: 25px;
  }
  .card .card-title
  {
- 	text-align:center;
- 	font-size: 28px;
+  text-align:center;
+  font-size: 28px;
   font-weight: bold;
   line-height: 1.71;
   text-align: center;
-  color: #123456;
  }
  .card .card-text
  {
- 	 font-size: 18px;
-  font-weight: normal;
-  font-stretch: normal;
-  font-style: normal;
+   font-size: 18px;
   line-height: 1.56;
-  letter-spacing: normal;
   text-align: center;
-  color: #123456;
  }/*
 -------------------------lastcard--------------------------------*/
-	.lastcard
+  .lastcard
 {
-	border-radius: 24px;
- 	background-image: url("E:/indepay/MobileResponsive/image/element.png") ,
- 	url("E:/indepay/MobileResponsive/image/element-4.png"),url("E:/indepay/MobileResponsive/image/leftelement.png");
- 	background-repeat: no-repeat,no-repeat,no-repeat;
-background-position: right ,left top,left bottom;
-background-color: #b2f7e2;
-   margin-top: 50px;
-  	 margin: 2% 8%;
-  	}
-
+  border-radius: 24px;
+  background-image: url("E:/indepay/MobileResponsive/image/element.png") ,
+  url("E:/indepay/MobileResponsive/image/element-4.png"),url("E:/indepay/MobileResponsive/image/leftelement.png");
+  background-repeat: no-repeat,no-repeat,no-repeat;
+  background-position: right ,left top,left bottom;
+    background-color: #b2f7e2;
+        margin-top: 50px;
+            margin: 0% 8%;
+    }
 .started
 {
-	    font-size: 48px;
+   font-size: 48px;
   font-weight: bold;
   line-height: 1.5;
-  color: #123456;
+  padding-bottom: 94px;
 }
 .started h1 {
        margin-top: 65px;
         margin-bottom: 15px;
     font-size: 48px;
     font-weight: bold;
-	}
-	.started h4 {
+  }
+  .started h4 {
     font-size: 18px;
     margin-bottom: 18px;
   line-height: 1.56;
   text-align: center;
   color: rgba(18, 52, 86, 0.7);
-	}
-
-	.started .GetAPI {
-		margin-bottom: 6%;
+  }
+  .started .GetAPI {
+    margin-bottom: 6%;
     margin-right: 2%;
-		margin-top: 20px;
+    margin-top: 20px;
     border-radius: 6px;
     background-color: #123456;
-     padding: 13px 20px 14px 19px;
+    padding: 13px 20px 14px 19px;
     font-size: 18px;
     background-color: #123456;
     color: #ffffff;
-	}
-	.started .ContactSales {
+  }
+  .started .ContactSales {
     margin-right: 25px;
     border-radius: 6px;
     background-color: #b2f7e2;
-   padding: 13px 20px 14px 19px;
-    font-size: 18px;  
+    padding: 13px 20px 14px 19px;
+    font-size: 18px;
 }
 }
 /*--------------------------1650px-----------------------------------------------------*/
 /*Media Queries*/
-
 @media (max-width : 1650px)
 {
 .padding .heading .h2
 {
-	    font-size: 42px;
-	    margin-right:60px;
+      font-size: 42px;
+      margin-right:60px;
 }
 /*
 ***************************Services******************************/
 .services
 {
-	border-radius: 16px;
-  background-color: #123456;
  margin-right:8%;
-     margin-left: 140px;
+margin-left: 140px;
 }
 .services{
     margin-left: 10%;
 }
-
 .rightsideimage {
     width: 18vw;
 }
 .leftsideimage
 {
-	    left: 88%;
+    left: 88%;
     top: 3%;
 }
 .services {
-  
-    margin:0;
     margin-left: 14%;
-        margin-right: 8%;
+     margin-right: 8%;
 }
 .servicestext .text {
   font-size: 28px;
-    text-align: center;
-    color: #ffffff;
     margin-top: 45px;
-    font-weight: bold;
 }
 .logoimage {
        width: 16vw;
@@ -405,7 +372,7 @@ background-color: #b2f7e2;
        margin-left: 2%;
        margin-bottom: 10%;
 }
-.leftimage {   
+.leftimage {
     position: absolute;
     left: 89%;
     top: 2%;
@@ -416,73 +383,58 @@ background-color: #b2f7e2;
     margin-left: 65px;
     padding-left: 0px;
 }
-.started
-{ font-size:0px;
-}
 .started h1 {
-       margin-top: 65px;
+     margin-top: 65px;
     margin-bottom: 8px;
     font-size: 48px;
     font-weight: bold;
-	}
-	.started h4 {
+  }
+  .started h4 {
     font-size: 18px;
     margin-bottom: 18px;
-	}
-	.started .GetAPI {
-		    margin-top: 20px;
-   margin-bottom: 0;
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #123456;
-   padding: 13px 20px 14px 19px;
-    font-size: 16px;
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
+  }
+  .started .GetAPI,.started .ContactSales {
+     margin-top: 20px;
+     margin-bottom: 0;
+     margin-right: 25px;
+     border-radius: 6px;
     padding: 13px 20px 14px 19px;
     font-size: 16px;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-   margin-left: 15px;
+  }
+  .started .ContactSales {
+    margin-right: 25px;
+    background-color: #b2f7e2;
 }
 }
 /*---------------------1400px-----------------------------------*/
-
 @media (max-width : 1400px)
 {
 .padding .heading {
     margin-top: 4%;
    }
 .servicelogo {
-  margin-left: 100px;
+    margin-left: 50px;
+    padding-bottom: 20px;
 }
    .imglogo {
     padding: 0 30px;
     }
 /*
 ***************************Services******************************/
+}
 .leftsideimage
 {
-	    left: 88%;
+      left: 88%;
     top: 3%;
 }
 .services {
     margin-left: 10%;
-    margin-right: 8%;
+    margin-right: 8%; 
 }
 .servicestext .text {
   font-size: 28px;
     text-align: center;
-    color: #ffffff;
     margin-top: 45px;
-    font-weight: bold;
 }
 .leftimage {
     position: absolute;
@@ -496,7 +448,7 @@ background-color: #b2f7e2;
 }
 .benefitscard {
       padding-top: 300px;
-    padding-right: 10%;
+    padding-right: 10.5%;
 }
 .benefitimage {
     position: absolute;
@@ -513,14 +465,9 @@ background-color: #b2f7e2;
     margin-left: 35%;
     padding-top: 105px;
     font-size: 37px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
 }
-.Benefits { 
+.Benefits {
     font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
     margin-top: 175px;
 }
 .card .card-title {
@@ -529,49 +476,32 @@ background-color: #b2f7e2;
 .card .card-text {
     font-size: 16px;
 }
-
 /**********************Last Card************************************/
-
 .lastcard{
  background-size: 140px,180px,90px;
     padding-left: 0px;
 }
 .started
 {
-	    font-size:0px;
+  font-size:0px;
 }
 .started h1 {
        margin-top: 65px;
     margin-bottom: 8px;
-    font-size: 48px;
-    font-weight: bold;
-	}
-	.started h4 { 
+  }
+  .started h4 {
     font-size: 18px;
     margin-bottom: 18px;
-	}
-	
-	.started .GetAPI {
-		margin-top: 20px;
-   margin-bottom: 0;
-    margin-right: 25px;
-    border-radius: 6px;
-     padding: 13px 20px 14px 19px;
-    font-size: 16px;
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
+  }
+  .started .GetAPI {
+   margin:20px 25px 0px 0px;
     padding: 13px 20px 14px 19px;
     font-size: 16px;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-   margin-left: 15px;
+  }
+  .started .ContactSales {
+    margin-right: 25px;
+    padding: 13px 20px 14px 19px;
+    font-size: 16px;
 }
 }
 /*------------------1200px-------------------------------------*/
@@ -580,72 +510,54 @@ background-color: #b2f7e2;
 .apikey {
     font-size: 14px;
     }
-    .servicelogo {
-    margin-left: 100px;
-
-    margin-right: 80px;
+.servicelogo {
+    margin-left: 50px;
+    padding-bottom: 20px;
 }
-
+.logoimage {
+    width: 18vw;
+}
 .padding .heading {
-    margin-top: 5%;
-   }
-
+    margin-top: 4%;
+    padding-right: 0px;
+}
 .padding .heading .h2
 {
-	    font-size: 40px;
-	    margin-right:0px;
+    font-size: 40px; 
 }
 .padding .heading .btn {
-	padding:0;
+  padding:0;
 }
-
 .padding .logo {
     margin: 4% 8%;
 }
 .padding .heading .api {
     font-size: 16px;
 }
-
 .singup{
     margin-left: 20px;
     margin-bottom: 1px;
 }
-.servicelogo {
-    margin-top: 25px;
-   margin-left:0px;
-    margin-bottom: 65px;
-}
-
 /*
 ***************************Services******************************/
-.services{
-    margin-left: 10%;
-}
 .rightsideimage {
     width: 18vw;
 }
 .leftsideimage
 {
-	    left: 88%;
+      left: 88%;
     top: 3%;
 }
 .services {
-    margin:0;
     margin-left: 16%;
-        margin-right: 8%;
+     margin-right: 8%;
 }
 .servicestext .text {
   font-size: 28px;
     text-align: center;
     color: #ffffff;
     margin-top: 45px;
-}
-.logoimage {
-       width: 18vw;
-}
-.servicelogo {
-       margin-left: 2%;
-       margin-bottom: 10%;
+    font-weight: bold;
 }
 .leftimage {
     position: absolute;
@@ -658,9 +570,7 @@ background-color: #b2f7e2;
     bottom: 20%;
 }
 .benefitscard {
-           padding-top: 320px;
-    padding-left: 16%;
-    padding-right: 11%;
+    padding:320px 11% 0px 16%;
 }
 .benefitimage {
     position: absolute;
@@ -669,7 +579,7 @@ background-color: #b2f7e2;
 }
  .benefitimage .bimag
 {
-	    width: 23vw;
+      width: 23vw;
 }
 .indepaytext h3 {
     padding-top: 0px;
@@ -680,24 +590,22 @@ background-color: #b2f7e2;
     margin-left: 35%;
     padding-top: 105px;
     font-size: 37px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
 }
 .Benefits {
     font-size: 10px;
     font-weight: 500;
-    line-height: 2;
     margin-top: 200px;
+}
+.card {
+    border-radius: 25px;
+    margin-bottom: 20px;
 }
 .card .card-title {
     font-size: 20px;
 }
-
 .card .card-text {
     font-size: 16px;
 }
-
 /*************************Last card*****************************/
 .lastcard{
  background-size: 70px,130px,70px;
@@ -706,125 +614,82 @@ background-color: #b2f7e2;
 }
 .started
 {
-	    font-size:0px;
+      font-size:0px;
 }
 .started h1 {
        margin-top: 30px;
     margin-bottom: 8px;
     font-size: 45px;
-	}
-	.started h4 {
-       margin-right: 45px;
-    margin-left: 32px;
+  }
+  .started h4 {
     font-size: 16px;
-    margin-bottom: 18px;
-	}
-	.started .GetAPI {
-   margin-bottom: 0;
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #123456;
+    margin:0px 45px 18px 32px;
+  }
+  .started .GetAPI {
     padding: 10px;
     font-size: 13px
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
+  }
+  .started .ContactSales {
     padding: 10px;
     font-size: 13px;
-    font-weight: bold;
-    text-align: center;
-    color: #123456;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-   margin-left: 15px;
 }
 }
 /* -----------------992px------------------------------*/
  @media (max-width : 992px)
- {
+{
+  .servicelogo {
+    margin-left: 50px;
+    padding-bottom: 20px;
+}
 .apikey
 {
-	    font-size: 12px;
+      font-size: 12px;
     margin-bottom: 25px;
 }
-.signup
- 	{
- 		    margin-left: 8px;
-    margin-bottom: 22px;
+  .signup
+  {
+    margin:0px 0px 22px 8px;
     font-size: 14px;
- 	}
+  }
 .padding .heading
 {
-	    margin-top: 4%;
+      margin-top: 4%;
 }
 .padding .heading .h2
 {
-	font-size:46px;
-	line-height: 1.00;
-	letter-spacing: -0.5px;
-	margin-right: 200px;
+  font-size:46px;
 }
 .padding .heading .api
 {
-	 font-size: 20px;
-  line-height: 1.00;
+   font-size: 20px;
 }
-.logoimage{
-	width:17vw;
+.logoimage {
+    width: 14vw;
+}
+.indepaytext h3 {
+     padding-top: 30px; 
 }
 /*
 ***************************Services******************************/
-.services{
-    margin-left: 10%;
-}
 .rightsideimage {
-    width: 20vw;
-}
-.leftsideimage
-{
-	    left: 88%;
-    top: 3%;
+    width: 18vw;
 }
 .services {
-  
-    margin:0;
-    margin-left: 16%;
-        margin-right: 8%;
+        margin:0px 8% 0px 16%;
 }
 .servicestext .text {
-  font-size: 30px;
-    text-align: center;
-    color: #ffffff;
+    font-size: 30px;
     margin-top: 45px;
-    font-weight: normal;
 }
-.logoimage {
-       width: 18vw;
-}
-.servicelogo {
-       margin-left: 2%;
-       margin-bottom: 10%;
-}
+
 .leftimage {
     position: absolute;
-       left: 87%;
+    left: 87%;
     top: 5%;
 }
 /********************Benefitscard************************************************/
-#benefitsparent {
-    position: relative;
-    bottom: 20%;
-}
 .benefitscard {
-        padding-top: 290px;
-    padding-left: 16%;
-    padding-right: 10%;
+    padding:290px 10% 0% 16%;
 }
 .benefitimage {
     position: absolute;
@@ -832,30 +697,22 @@ background-color: #b2f7e2;
     top: 93px;
 }
  .benefitimage .bimag
-{
-	    width: 23vw;
-}
-.indepaytext h3 {
-    padding-top: 0px;
-    margin-top: 140px;
-}
+  {
+  width: 23vw;
+  }
+
 .indepaytext {
     position: absolute;
     margin-left: 32%;
     padding-top: 80px;
     font-size: 35px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
 }
 .Benefits {
     font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
     margin-top: 180px;
 }
 .card .card-title {
-  font-size: 20px;
+    font-size: 20px;
 }
 .card .card-text {
     font-size: 16px;
@@ -863,871 +720,359 @@ background-color: #b2f7e2;
 /*********************Last card*********************************/
 .lastcard{
  background-size: 60px 180px ,140px,80px;
-   padding-left: 5px;
+    padding-left: 5px;
+        margin: 0% 5% 0% 12%;
 }
-.started
-{   
-	    font-size:0px;
+.started {
+    padding-bottom: 50px;
 }
 .started h1 {
-       margin-top: 25px;
-    margin-bottom: 5px;
+       margin:25px 0px 0px 5px;
    font-size: 38px;
-	}
-	.started h4 {
-    margin-right: 45px;
-    margin-left: 32px;
+   padding-bottom: 10px;
+  }
+  .started h4 {
     font-size: 14px;
     margin-bottom: 15px;
-	}
-	.started .GetAPI {
-     margin-bottom: 0; 
+  }
+  .started .GetAPI {
     margin-right: 20px;
-    border-radius: 6px;
-    background-color: #123456;
-    padding: 8px 8px 8px 8px;
     font-size: 12px;
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
-    padding: 8px 8px 7px 8px;
+  }
+  .started .ContactSales {
     font-size: 12px;
-    font-weight: bold;
-    text-align: center;
-    color: #123456;
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-   margin-left: 15px;
 }
- }
  /*-------------------------768px---------------------------------------------------*/
-
  @media (max-width :768px)
  {
+   .services {
+margin:-5% 0% 0% 16%;
+}
 .servicelogo {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    margin-left: 95px;
+    padding-left: 10%;
+    margin: 7px 0px;
 }
- 	.signup
- 	{
- 		font-size: 16px;
- 	margin-left: 50px;
- 		margin-top: 15px;
- 	}
- 	.padding {
- 		margin: 3%;
- 		margin-right: 5%;
- 	}
- 	.padding .heading
-{
-	    margin-top: 5%;
+  .padding .heading {
+    padding-right:0px;
+  }
+  .padding .heading .headingtext {
+    font-size:35px;
+  }
+  .padding .heading .api {
+    font-size: 18px;
 }
- 	.padding .heading .h2
- 	{
- 		margin-right: 150px;
- 		font-size: 40px;
- 		line-height: 1.00;
- 		letter-spacing: -0.5px;
- 	}
- 	.padding .heading .api
- 	{
- 		font-size: 22px;
- 	}
- 	.started h1
- 	{
- 		margin-top: 10%;
- 		font-size: 40px;
- 	}
- 	.started h4
- 	{
- 		margin-bottom: 6%;
- 		font-size: 15px;
- 	}
- 	.padding .text
- 	{
- 		font-size: 26px;
- 		margin-top: 20px;
- 	}
- 	.Benefits
- 	{
- 		font-size: 12px;
- 		font-weight: 500;
- 		line-height: 2;
- 	}
- 	.image
- 	{
- 		margin:1% 10%;
- 	}
-/********************Benefitscard************************************************/
-#benefitsparent {
+.servicestext .text {
+    font-size: 23px;
+    margin-top: 45px;
+}
+  .logoimage {
+    width: 12vw;
+}
+.services {
+    margin: -2% 5% 0% 13%;
+}
+.leftimage { 
+  position: absolute;
+    left: 87%;
+}
+#parent {
     position: relative;
-    bottom: 20%;
+    margin-top: 5%;
 }
-.benefitscard {
-       padding-top: 330px;
-    padding-left: 25%;
-    padding-right: 14%;
+.leftsideimage {
+    width: 10vw;
 }
-.benefitimage {
-    position: absolute;
-    left: 69%;
-    top: 93px;
-}
- .benefitimage .bimag
-{
-	width: 34vw;
-}
-.indepaytext h3 {
-    padding-top: 15px;
-  	margin-top: 160px;
-}
-.indepaytext {
-    position: absolute;
-    margin-left: 32%;
-    padding-top: 80px;
-    font-size: 35px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
+.rightsideimage {
+    width: 16vw;
 }
 .Benefits {
-      font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
-    margin-top: 200px;
+    font-size: 10px;
+    margin-top: 22%;
+    margin-left: 43%;
 }
 
-.card .card-title {
-    font-size: 20px;
+.indepaytext h3 {
+    padding-top: 8px;
+    font-size: 25px;
+    margin-left: -5px;
+    margin-top: 45%;
 }
-.card .card-text {
-    font-size: 16px; 
-}
-/*
-***************************Services******************************/
-.services{
-    margin-left: 10%;
-}
-.rightsideimage
-{
-	    width: 25vw;
-}
-.leftsideimage
-{
-	width: 13vw;
-}
-.services {
-    margin:0;
-    margin-left: 16%;
-     margin-right: 8%;
-}
-.servicestext .text {
-   font-size: 22px;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 45px;
-    font-weight: normal;
-}
-.logoimage {
-       width: 18vw;
-}
-.servicelogo {
-        margin-left: 10%;
-       margin-bottom: 10%;
-}
-.leftimage {
-    position: absolute;
-       left: 87%;
-    top: 5%;
-}
-/**************Last card**************************************/
- 	.lastcard{
- background-size:  40px 180px,80px,50px;
-    margin-left: 15px;
-    padding-left: 5px;
-}
-.started
-{
-	 font-size:0px;
-}
-.started h1 {
-       margin-top: 25px;
-    margin-bottom: 5px;
-   font-size: 35px;
-	}
-	.started h4 {
-    margin-right: 50px;
-    margin-left: 30px;
-    font-size: 14px;
-    margin-bottom: 10px;
-	}
-	.started .GetAPI {
-     margin-bottom: 0; 
-    margin-right: 20px;
-    border-radius: 6px;
-    background-color: #123456;
-    padding: 8px 8px 8px 8px;
-    font-size: 10px;
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
-    padding: 8px 8px 7px 8px;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    color: #123456;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-   margin-left: 15px;
-}
-
-/*---------------------------576px-------------------------------------
-*/
- @media (max-width :576px)
- {
-.padding
-{
-	margin: 15px;
-}
-.servicelogo {
-    margin-top: 25px;
-    margin-bottom: 50px;
-    margin-left: 50px;
-}
-  .signup
- {
- 	text-align: center;
- 	margin-top: 20px;
- 	margin-right:22px;
- }
-.padding .heading .h2
-{
-	font-size:25px;
-	line-height: 1.00;
-	letter-spacing: -0.5px;
-	margin-right: 100px;
-}
-.padding .logo
-{
-	margin:0px ;
-}
-.adding .heading .api
-{
-	 font-size: 13px;
-  line-height: 1.00;
-}
-.services
-{
-	border-radius: 13px;
-  background-color: #123456;
- margin: 5% 3%
-}
-.padding .text
-{
-	font-size: 20px;
-  line-height: 1.50;
-  text-align: center;
-}
- .Benefits
- {
-  margin:1% 45%;
-  font-size: 10px;
-  font-weight: 500;
-  line-height: 2;
- }
- .image
- {
- 	margin:5% 0;
- }
-.started h1
-{
-	    margin: 5% 15%;
-    font-size: 35px;
-}
-    .started h4
-    {
-    margin-bottom: 8%;
-    font-size: 14px; 
-}
-/*******************Services****************************/
-.services{
-    margin-left: 10%;
-}
-.rightsideimage
-{
-	    width: 25vw;
-}
-.leftsideimage
-{
-	width: 13vw;
-}
-.services {
-    margin:0;
-    margin-left: 16%;
-   margin-right: 8%;
-}
-.servicestext .text {
-   font-size: 22px;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 45px;
-    font-weight: normal;
-}
-.logoimage {
-       width: 18vw;
-}
-.servicelogo {
-        margin-left: 10%;
-       margin-bottom: 10%;
-}
-.leftimage {
-    position: absolute;
-       left: 87%;
-    top: 5%;
-}
-/********************Benefits card******************************/
-.benefitscard {
-    padding-top: 230px;
-    padding-left: 25%;
+.benefitimage .bimag {
+    width: 28vw;
 }
 .benefitimage {
     position: absolute;
-      left: 67%;
+    left: 70%;
     top: 85px;
 }
- .benefitimage .bimag
-{
-	    width: 32vw;
-}
-.indepaytext h3 {
-    padding-top: 15px;
-    font-size: 18px;
-  	margin-top: 160px;
-}
-.indepaytext {
-    position: absolute;
-    margin-left: 32%;
-    padding-top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
-}
-#benefitsparent {
-    position: relative;
-    bottom: 15%;
-}
-.Benefits {
-    margin: 1% 45%;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
-    margin-top: 150px;
-}
-
-.card .card-title {
-    font-size: 20px;
-}
-.card .card-text {
-    font-size: 16px;
-}
-
-/*******************Last card********************************/
-.lastcard{
- background-size:  40px 180px ,70px,40px;
-margin-left: 15px;
-    padding-left: 5px;
-}
-.started
-{
-	    font-size:0px;
-}
-.started h1 {
-      margin-top: 25px;
-    margin-bottom: 5px;
-    font-size: 25px;
-	}
-	.started h4 {
-    font-size: 14px;
-    margin:0px 50px 10px 30px;
-	}
-	.started .GetAPI {
-     margin-bottom: 0; 
-    border-radius: 6px;
-    background-color: #123456;
-    padding: 8px 8px 7px 8px;
-    font-size: 10px;
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
-    padding: 8px 8px 7px 8px;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    color: #123456;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-    margin-left: auto;
-}
-.abc
-{
-	    margin-left: 18px;
- }
-}
-
-/*-----------------------------445px---------------------------------------------*/
-@media (max-width :445px)
-{
-	.padding .logo
-{
-	margin:0px ;
-}
-/**************************Services***************************************/
-.rightsideimage
-{
-	 width: 30vw;
-}
-.leftsideimage
-{
-	width: 15vw;
-}
-.services {
-    margin:0;
-    margin-left: 20%;
-}
-.servicestext .text {
-    font-size: 18px;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 45px;
-    font-weight: normal;
-}
-.logoimage {
-    width: 12vw;
-}
-.servicelogo {
-    margin-left: 2px;
-       margin-bottom: 10%;
-}
-.leftimage {
-    position: absolute;
-    left: 95%;
-    top: 5%;
-}
-
-/*************************LastCard*************************************/
 .benefitscard {
-    padding-top: 220px;
-    padding-left: 25%;
-    padding-right: 12%;
-    padding:220px 12% 0 25%;
+    padding: 39% 15% 0% 20%;
 }
-
-.benefitimage {
-    position: absolute;
-   left: 72%;
-    top: 99px;
-}
- .benefitimage .bimag
-{
-	width: 32vw;
-}
-.indepaytext h3 {
-    padding-top: 40px;
-    font-size: 15px;
-  	margin-top: 140px;
-}
-.indepaytext {
-    position: absolute;
-    margin-left: 32%;
-    padding-top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
-}
-#benefitsparent {
-    position: relative;
-    bottom: 15%;
-}
-.Benefits {
-    margin: 1% 45%;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
-   margin-top: 160px;
-}
-.card .card-title {
-    font-size: 20px;
-}
-.card .card-text {
-    font-size: 16px;
-    
-}
-}
-/*------------------------420px----------------------------------*/
-
-@media (max-width :420px)
- {
- 	.servicelogo
-	{
-		margin-left: 30px;
-  		 margin: 5px 0px;
-  }
-}
-/*******************Benefitcard*****************************************/
-.benefitscard {
-    padding:210px 12% 0px 25%;
-}
-.benefitimage {
-    position: absolute;
-    left: 75%;
-    top: 99px;
-}
- .benefitimage .bimag
-{
-	width: 35vw;
-}
-.indepaytext h3 {
-    padding-top: 15px;
-    font-size: 17px;
-  	margin-top: 140px;
-}
-.indepaytext {
-    position: absolute;
-    margin-left: 32%;
-    padding-top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
-}
-#benefitsparent {
-    position: relative;
-    bottom: 15%;
-}
-.Benefits {
-    margin: 1% 45%;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
-    margin-top: 130px;
-}
-.card .card-title {
-    font-size: 20px;
-}
-.card .card-text {
-    font-size: 16px;
-    
-}
-/*-----------------Last card------------------------------------------------------*/
-.lastcard{
- background-size:  40px 180px ,70px,40px;
-margin-left: 15px;
-    padding-left: 5px;
-    margin-right: 20px;
-}
-.started
-{
-	    font-size:0px;
-}
-.started h1 {
-       margin-top: 25px;
-    margin-bottom: 5px;
-    font-size: 25px;
-	}
-	.started h4 {
-    margin-right: 50px;
-    margin-left: 30px;
-    font-size: 14px;
+.card {
     margin-bottom: 10px;
-	}
-	.started .GetAPI {
-     margin-bottom: 0; 
-    border-radius: 6px;
-    background-color: #123456;
+  }
+.card .card-title {
+    font-size: 18px;
+  }
+.card .card-text {
+    font-size: 14px; 
+  }
+.lastcard {
+    background-size: 40px 180px ,70px,40px;
+     padding-left: 5px; 
+    margin: -10% 5% 0px 10%;
+}
+.started {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.started h1 {
+padding-bottom: 3%;
+}
+.started h4 {
+     margin-bottom: 0%; 
+    font-size: 14px;
+}
+.started .GetAPI, .started .ContactSales {
     padding: 8px 8px 7px 8px;
-    font-size: 10px;
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
-    padding: 8px 8px 7px 8px;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    color: #123456;
-}
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-   margin-left: 16px;
+    margin-right:1px;
 }
 }
-/*-------------------420px-----------------------------*/
- @media (max-width :420px)
-	/**************************Services***************************************/
-.rightsideimage
+/*---------------------------576px-------------------------------------
+*/
+@media (max-width :576px)
 {
-	    width: 25vw;
+  .services {
+margin:-5% 0% 0% 16%;
 }
-.leftsideimage
-{
-	width: 13vw;
-}
-.services {
-    margin:0;
-    margin-left: 16%;
+.servicelogo
+  {
+    padding-left: 20px;
+    margin: 7px 0px;
+  }
+  .padding .heading {
+    padding-right:0px;
+  }
+  .padding .heading .headingtext {
+    font-size:35px;
+  }
+  .padding .heading .api {
+    font-size: 18px;
 }
 .servicestext .text {
-    font-size: 18px;
-    text-align: center;
-    color: #ffffff;
+    font-size: 15px;
     margin-top: 45px;
-    font-weight: normal;
-}
-.logoimage {
+  }
+  .logoimage {
     width: 12vw;
 }
-.servicelogo {
-    margin-left: 2px;
-       margin-bottom: 10%;
+.services {
+    margin: -2% 0% 0% 13%;
+}
+.leftimage { 
+  position: absolute;
+    left: 89%;
+}
+#parent {
+    position: relative;
+     margin-top:0px;
+}
+.rightsideimage {
+    width: 18vw;
+}
+.Benefits {
+    font-size: 10px;
+    margin-top: 28%;
+    margin-left: 43%;
+}
+.benefitimage {
+    position: absolute;
+    left: 67%;
+    top: 85px;
+}
+.indepaytext h3 {
+    padding-top: 8px;
+    font-size: 20px;
+    margin-left: -5px;
+    margin-top: 65%;
+}
+.benefitscard {
+    padding: 47% 15% 0% 20%;
+}
+.card {
+    margin-bottom: 10px;
+  }
+.card .card-title {
+    font-size: 18px;
+  }
+.card .card-text {
+    font-size: 14px; 
+  }
+.lastcard {
+    background-size: 40px 180px ,70px,40px;
+     padding-left: 5px; 
+     margin:-80px 0px 0px 25px;
+}
+.started {
+    font-size: 45px;
+    padding-bottom: 30px;
+}
+.started h1 {
+padding-bottom: 3%;
+}
+.started h4 {
+     margin-bottom: 0%; 
+    font-size: 14px;
+}
+.started .GetAPI, .started .ContactSales {
+    padding: 8px 8px 7px 8px;
+    margin-right:1px;
+}
+}
+
+/*-----------------420px-------------------------*/
+ @media (max-width :420px)
+ {
+  .services {
+    margin: -5% 5% 0% 16%;
+}
+ .padding .heading .headingtext {
+    font-size: 30px;
+}
+.padding .heading .api {
+    font-size: 16px;
+}
+.rightsideimage {
+    width: 22vw;
 }
 .leftimage {
     position: absolute;
-    left: 95%;
-    top: 5%;
+    left: 85%;
 }
-/*******************Servicetext*****************************/
-.benefitscard {
-    padding:210px 10% 0px 25%;
+.servicelogo
+  {
+    padding-left: 20px;
+    margin: 7px 0px;
+  }
+.servicestext .text {
+    font-size: 15px;
+    margin-top: 45px;
+  }
+  .logoimage {
+    width: 12vw;
+}
+.Benefits {
+    font-size: 10px;
+    margin-top: 35%;
+    margin-left: 40%;
 }
 .benefitimage {
     position: absolute;
     left: 72%;
-    top: 85px;
-}
- .benefitimage .bimag
-{
-	width: 35vw;
+    top: 6%;
 }
 .indepaytext h3 {
-    padding-top: 15px;
-    font-size: 17px;
-  	margin-top: 140px;
+    font-size: 15px;
+    margin-left: -15px;
+    margin-top: 60%;
 }
-.indepaytext {
-    position: absolute;
-    margin-left: 32%;
-    padding-top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
-}
-#benefitsparent {
-    position: relative;
-    bottom: 15%;
-}
-.Benefits {
-    margin: 1% 45%;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
-    margin-top: 130px;
-}
-.card .card-title {
-    font-size: 20px;
-}
-.card .card-text {
-    font-size: 16px;
+.benefitscard {
+    padding: 59% 14% 0% 21%;
 }
 
-	/*----------------------Last card-------------------------------------*/
-.lastcard{
- background-size:  40px 180px ,70px,40px;
-margin-left: 15px;
-    padding-left: 5px;
+.indepaytext {
+    position: absolute;
+    margin-left: 35%;
+    padding-top: 120px;
+    font-size: 35px;
 }
-.started
-{
-	    font-size:0px;
+.card {
+    margin-bottom: 10px;
+  }
+.card .card-title {
+    font-size: 16px;
+  }
+.card .card-text {
+    font-size: 14px; 
+  }
+.lastcard {
+    background-size: 40px 180px ,70px,40px;
+     padding-left: 5px; 
+     margin:-80px 0px 0px 25px;
+}
+.started {
+    font-size: 45px;
+    padding-bottom: 30px;
 }
 .started h1 {
-       margin-top: 25px;
-    margin-bottom: 5px;
+    padding-bottom: 3%;
     font-size: 25px;
-	}
-	.started h4 {
-    margin-right: 50px;
-    margin-left: 30px;
-    font-size: 14px;
-    margin-bottom: 10px;
-	}
-	.started .GetAPI {
-     margin-bottom: 0; 
-    border-radius: 6px;
-    background-color: #123456;
-    padding: 8px 8px 7px 8px;
-    font-size: 10px;
-	}
-	.started .ContactSales {
-    margin-right: 25px;
-    border-radius: 6px;
-    background-color: #b2f7e2;
-    padding: 8px 8px 7px 8px;
-    font-size: 10px;
-    font-weight: bold;
-    text-align: center;
-    color: #123456;
 }
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-     padding-right: 0px; 
-    padding-left: 0px; 
-    margin-right: auto;
-    margin-left: 15px;
+.started h4 {
+    margin-bottom: 0%;
+    font-size: 14px;
+    padding: 0% 15%;
+}
+.started .GetAPI, .started .ContactSales {
+    padding: 8px 8px 7px 8px;
+    margin-right:1px;
 }
 }
 /*--------------------------------370 px--------------------------------------------------------*/
  @media (max-width :370px)
  {
- .padding .heading .h2 {
-    font-size: 25px;
-    line-height: 1.00;
-    letter-spacing: -0.5px;
-    margin-right: 80px;
+  .indepaytext h3 {
+    font-size: 14px;
+    margin-left: -8px;
+}
+  .servicelogo
+  {
+    padding-left: 10px;
+    margin: 7px 0px;
+  }
+.cardtext {
+    position: absolute;
+    top: 25px;
+}
+.card .card-text {
+    font-size: 13px;
+}
+.card .card-title {
+    font-size: 15px;
+} 
+.benefitscard {
+    padding: 190px 11% 0% 17%;
 }
 .started h1 {
-    margin: 5% 15%;
-    font-size: 32px;
-}
-.apikey
-{
-	padding: 13px 36px 14px 38px;
-}
-.padding .heading .btn {
-
-	padding: 10px 12px 10px 12px;
-}
-/**************************Services***************************************/
-.rightsideimage
-{
-	    width: 30vw;
-}
-.leftsideimage
-{
-	width: 15vw;
-}
-.services {
-    margin:0;
-    margin-left: 20%;
-}
-.servicestext .text {
-    font-size: 18px;
-    text-align: center;
-    color: #ffffff;
-    margin-top: 45px;
-    font-weight: normal;
-}
-.logoimage {
-    width: 12vw;
-}
-.servicelogo {
-    margin-left: 2px;
-       margin-bottom: 10%;
-}
-.leftimage {
-    position: absolute;
-    left: 95%;
-    top: 5%;
-}
-/************************Benefits card*****************************************************/
-.benefitscard {
-    padding:210px 8% 0 25%;
+    padding-bottom: 3%;
+    font-size: 20px;
 }
 .benefitimage {
     position: absolute;
-    left: 75%;
-    top: 99px;
-}
- .benefitimage .bimag
-{
-	width: 35vw;
+    left: 70%;
+    top: 95px;
 }
 .indepaytext h3 {
-    padding-top: 15px;
-    font-size: 16px;
-  	margin-top: 140px;
+    font-size: 13px;
+    margin-left: -8px;
+    margin-top: 35%;
 }
-.indepaytext {
+}
+
+ @media (max-width :320px)
+ {
+
+  .indepaytext h3 {
+    font-size: 15px;
+    margin-left: -15px;
+    margin-top: unset;
+    margin-top: 30%;
+}
+
+.benefitimage {
     position: absolute;
-    margin-left: 25%;
-    padding-top: 15px;
-    font-size: 40px;
-    font-weight: bold;
-    line-height: 1.2;
-    color: #123456;
+    left: 74%;
+    top: 105px;
 }
-#benefitsparent {
-    position: relative;
-    bottom: 15%;
-}
-.Benefits {
-    margin: 1% 45%;
-    font-size: 10px;
-    font-weight: 500;
-    line-height: 2;
-    margin-top: 130px;
-}
-.card .card-title {
-    font-size: 20px;
-}
-.card .card-text {
-    font-size: 16px;
-}
-/**************************Last card********************************************/
-.lastcard{
- background-size: 40px 180px,70px,40px;
-margin-left: 15px;
-    padding-left: 5px;
-}
-.started
-{
-  font-size:0px;
-}
-.started h1 {
-       margin-top: 25px;
-    margin-bottom: 5px;
-    font-size: 25px;
-	}
-
-.container, .container-fluid, .container-lg, .container-md, .container-sm, .container-xl {
-    width: 100%;
-    margin-right: auto;
-    margin-left: 16px;
-}
-
-}
+  }
