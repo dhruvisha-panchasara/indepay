@@ -1,0 +1,76 @@
+html,body
+{
+	width:100%;
+	margin:0;
+	padding:0;
+}
+
+.item ul,.nav input[type="checkbox"]
+{
+	display: none;
+}
+.item input:checked ~ ul
+{
+	display: block;
+}
+
+.arrow
+{
+	width:20px;
+	height:20px;
+	vertical-align: center;
+	float:left;
+	z-index: 0;
+	margin:8px 3px 0px 15px;
+	
+}
+.item input + .arrow
+{
+	transform:rotate(-90deg);
+	transition: 0.1s;
+}
+
+.item input:checked + .arrow{
+	transform: rotate(0deg);
+	transition: 0.1s;
+}
+
+label:hover
+{
+	cursor: pointer;
+
+}
+label
+{
+	width:100%;
+	display: block;
+	z-index:3;
+	position: relative;
+	padding-left: 40px;
+}
+
+.nav
+{
+	width:100%;
+}
+
+.nav ul,.nav li,label
+{
+	line-height: 32px;
+	margin:0;
+	color: #25262f;
+	list-style:none;
+	width:100%;
+}
+
+
+.item ul
+{
+	padding:0px 30px;
+}
+.nav li a
+{
+	font-size: 16px;
+  font-weight: normal;
+  color: #25262f;
+}
