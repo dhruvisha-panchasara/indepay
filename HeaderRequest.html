@@ -18,6 +18,22 @@
 
   <!-- Mobile Responsive-->
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <script>
+    function transform(element)
+    
+    {
+      var childId=element.children.item(0).id;
+     if(element.className=="collapsed")
+     {
+     
+      document.getElementById(childId).style.transform="rotate(0deg)";
+     }
+     else
+     {
+      document.getElementById(childId).style.transform="rotate(-90deg)";
+     }
+    }
+  </script>
 </head>
 <body>
 
@@ -25,10 +41,11 @@
   <div class="card card-collapse">
     <div class="card-header" role="tab" id="headingOne">
       <h5 class="mb-0">
-        <a data-toggle="collapse" href="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
-       Response Headers
-          <i class="material-icons">keyboard_arrow_down</i>
-        </a>
+     
+        <p onClick="transform(this)"   data-toggle="collapse" href="#collapseOne" aria-expanded="false" aria-controls="collapseOne" id="responseid">
+             <img src="image\assets-icon-chev-down.png" class="arrow" id="arrowid">
+                      Response Headers
+        </p>
       </h5>
     </div>
 
@@ -54,13 +71,15 @@
   <div class="card card-collapse">
     <div class="card-header" role="tab" id="headingTwo">
       <h5 class="mb-0">
-        <a class="collapsed" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+        
+        <p onClick="transform(this)" data-toggle="collapse" href="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" id="responseid2" >
+           <img src="image\assets-icon-chev-down.png" class="arrow" id="arrowid2">
          Request Headers
-          <i class="material-icons">keyboard_arrow_down</i>
-        </a>
+        
+        </p>
       </h5>
     </div>
-    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion">
+    <div id="collapseTwo" class="collapse show" role="tabpanel" aria-labelledby="headingTwo" data-parent="#accordion1">
       <div class="card-body">
         <xmp>
   <?xml version="1.0" encoding="UTF-8"?>
