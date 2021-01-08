@@ -1,0 +1,856 @@
+
+html ,body
+{
+	height :100%;
+	width: 100%;
+	font-family: TaraSans-BETA;
+  font-stretch: normal;
+  font-style: normal;
+  line-height: normal;
+  letter-spacing: normal;
+}
+.row {
+  margin-right: 0px;
+  }
+
+.padding
+{
+    padding: 2% 10% 2% 10%;
+}
+.transfer
+{
+	font-size: 12px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 1.71px;
+  color: #123456;
+  margin: 0 99px 8px 0;
+  padding: 0 6px;
+  background-color: #b2f7e2;
+  border:none;
+}
+ .apikey,.developer
+{
+  margin: 24px 16px 0 0;
+  padding: 13px 36px 14px 38px;
+  border-radius: 6px;
+  opacity: 0.9;
+  font-size: 16px;
+  font-weight: 500; 
+  text-align: center;
+  color: #123456;
+  border: none;
+}
+.apikey
+{
+  background-color: #b2f7e2;
+  border:none;
+}
+.apitransfer
+{
+ margin: 8px 0 16px;
+ font-size: 48px;
+ font-weight: bold;
+ line-height: 1.17;
+ letter-spacing: -0.5px;
+ color: #123456;
+}
+.api
+{
+  opacity: 0.8;
+  font-size: 18px;
+  line-height: 1.33;
+  color: #123456;
+}
+
+/*-------------Section--------------------------*/
+.bgoverview
+{
+	background-color: #f7f7fa;
+}
+
+.Rectangle {
+  width: 450px;
+  height: 300px;
+  margin: 42px 0 43px;
+  border-radius: 20px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+}
+
+.headingtext
+{
+  margin-bottom: 10px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #123456;
+}
+.overview
+{
+  font-size: 12px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 1.71px;
+  color: #123456;
+  margin: 0 468px 8px 0;
+  padding: 0 6px;
+  background-color: #b2f7e2;
+  border:none;
+}
+.text
+{
+	font-size: 16px;
+  line-height: 1.56;
+  color: #123456;
+}
+
+.checkbox-container {
+  display: flex;
+  align-items: center;
+}
+
+.checkbox-container label {
+  cursor: pointer;
+  display: flex;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 1.56;
+  color: #123456;
+}
+
+.checkbox-container input[type='checkbox'] {
+  cursor: pointer;
+  opacity: 0;
+  position: absolute;
+}
+
+.checkbox-container label::before {
+  content: '';
+  width: 1em;
+  height: 1em;
+  border-radius: 10px;
+  margin-right: .5em;
+  border: .05em solid #b2f7e2;
+  margin-top: 8px;
+  background-color: #b2f7e2;
+}
+
+.checkbox-container label:hover::before,
+.checkbox-container input[type='checkbox']:hover + label::before {
+  background-color: #b2f7e2;
+}
+
+
+.checkbox-container input[type='checkbox']:disabled + label,
+.checkbox-container input[type='checkbox']:disabled {
+  color: #aaa;
+  cursor: default;
+}
+
+.checkbox-container input[type='checkbox']:checked + label::before {
+  content: '\002714';
+  background-color: #b2f7e2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #123456;
+}
+
+.checkbox-container input[type='checkbox']:disabled + label::before {
+  background-color: #ccc;
+  border-color: #999;
+}
+/*---------------------Usecase--------------------------------------*/
+
+.usecase
+{
+	font-size: 12px;
+  font-weight: 500;
+  line-height: 2;
+  letter-spacing: 1.71px;
+  color: #123456;
+  border:none;
+  padding: 0 6px;
+  background-color: #b2f7e2;
+}
+.usecasemain
+{ 
+ padding-top: 7%;
+ padding-right: 5%;
+}
+.usecasemain h4
+{
+	margin: 8px 1px 8px 0;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  color: #123456;
+}
+.usecasemain p
+{
+  font-size: 16px;
+  line-height: 1.56;
+  color: #123456;
+  padding-right: 22%;
+}
+.card
+{
+  margin: 0 0 12px 60px;
+  border-radius: 20px;
+  border: solid 1px #e9ecef;
+  background-color: #ffffff;
+}
+.card .usecasecard
+{
+ padding: 5px 0 12px 25px;
+}
+.card-title
+{
+	font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #123456;
+}
+
+.card-description{
+	width: 410px;
+  height: 48px;
+  margin: 4px 0 0;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #123456;
+}
+.use2
+{
+	position: absolute;
+	margin-left: 43%;
+  margin-top: 5%;
+}
+#parentusecase
+{ 
+  position: relative;
+}
+.parentimage
+{
+	position: absolute;
+ left: 88%;
+}
+.usecasechild
+{
+	position: absolute;
+}
+.secondimage
+{
+	position: absolute;
+	margin-top: 28%;
+}
+/*------------------------------------Last card-------------------------------------*/
+.cardpadding
+{
+   margin-top: 30px;
+ margin-left: 140px;
+ margin-right: 150px;
+}
+.lastcard
+{
+ margin-top: 40%;
+ position: relative;
+ width:100%;
+ overflow: hidden;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+.lastcard::before
+{
+  content: '';
+  position: absolute;
+  left:50%;
+  width:100vh;
+  height:30vh;
+  background:#f7f7fa;
+  border-radius: 50%;
+  transform-origin: bottom;
+  transform: translateX(-50%) scale(5);
+}
+.profileovel
+{
+  width: 120px;
+  height: 120px;
+  background-color: #d8d8d8;
+
+}
+.startedmain p
+{
+  height: 48px;
+  font-size: 40px;
+  font-weight: bold;
+  line-height: 1.2;
+  text-align: center;
+  color: #123456;
+  padding-top: 30px;
+}
+.cardpadding .card-profile {
+  margin-top: 30px;
+  text-align: center;
+}
+.cardpadding .card-profile .card-avatar {
+  margin: -50px auto 0;
+  border-radius: 50%;
+  overflow: hidden;
+  padding: 0;
+  
+}
+.cardpadding .card-category
+{
+  height: 30px;
+  opacity: 0.9;
+  font-size: 24px;
+  font-weight: bold;
+  line-height: 1.25;
+  color: #123456;
+}
+.cardpadding .card
+{
+	padding:0;
+}
+.cardpadding .card-text
+{
+  padding: 2% 5% 2% 5%;
+  opacity: 0.8;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  color: #123456;
+}
+.cardbtn
+{
+  opacity: 0.9;
+  font-size: 16px;
+  font-weight: bold;
+  line-height: 1.88;
+  text-align: center;
+  color: #123456;
+  width: 220px;
+  height: 48px;
+  border:none;
+  border-radius: 6px;
+  background-color: #b2f7e2;
+}
+.cardpadding .card-body
+{
+  padding: 0px;
+  padding-bottom: 12px;
+ padding-top: 10%;
+}
+/*-------------------Media Query----------------------------------------*/
+@media(max-width:1200px)
+{
+.apitransfer ,.headingtext ,.usecasemain h4,.startedmain p 
+	{
+		font-size: 35px;
+	}
+	.transfer {
+		    margin: 10px 99px 0px 0;
+	}
+	.apikey, .developer {
+		padding:10px;
+	}
+	.developer
+	{
+		width:100%;
+	}
+.Rectangle {
+  width: 450px;
+  height: 300px;
+  margin: 42px 0 43px;
+}
+.overviewsecond
+{
+	padding-left: 1%;
+}
+.cardpadding {
+    margin-top: 0%;
+    margin-left: 7%;
+    margin-right: 5%;
+}
+.lastcard {
+    margin-top: 50%;
+  }
+
+.use2 {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.card {
+	margin:0px;
+	margin-bottom: 3%;
+	margin-right:2%;
+	}
+.card-description {
+    width: 400px;
+    height: 40px;
+}
+.parentimage {
+    position: absolute;
+    left: 87%;
+}
+.secondimage {
+    position: absolute;
+    margin-top: 35%;
+}
+.overview {
+	margin: 0 0px 8px 0;
+}
+.usecasemain {
+    padding-top: 7%;
+    padding-right: 15%;
+}
+.padding {
+    padding-left: 7%;
+    padding-right: 5%;
+}
+.cardpadding .card-profile {
+	    margin-top: 60px;
+}
+
+.cardpadding .card-category {
+	font-size: 18px;
+	}
+	.cardpadding .card-profile .card-avatar {
+		width:50%;
+	}
+	.cardbtn {
+		width: 220px;
+    height: 40px;
+    font-size: 16px;
+	}
+  .profileovel {
+    width: 152px;
+    height: 147px;
+    background-color: #d8d8d8;
+}
+}
+@media(max-width:1050px)
+{
+.overviewsecond {
+    padding-left: 3%;
+}
+.card-description {
+    width: 340px;
+    height: 60px;
+}
+.parentimage {
+    position: absolute;
+    left: 86%;
+}
+.use2 {
+    position: absolute;
+    margin-left: 46%;
+    margin-top: 5%;
+}
+.profileovel {
+    width: 139px;
+    height: 120px;
+    background-color: #d8d8d8;
+}
+.cardpadding .card-text {
+    padding: 2% 8% 2% 8%
+  }
+  .Rectangle {
+    width: 422px;
+    height: 300px;
+    margin: 42px 0 43px;
+}
+.usecasemain {
+    padding-top: 7%;
+    padding-right: 15%;
+    padding-left: 6%;
+}
+.use2 {
+    position: absolute;
+    margin-left: 48%;
+    margin-top: 5%;
+}
+.cardpadding {
+    margin-top: 1%;
+    margin-left: 5%;
+    margin-right: 0px;
+}
+}
+@media(max-width:992px)
+{
+.apitransfer ,.headingtext ,.usecasemain h4,.startedmain p 
+	{
+		font-size: 35px;
+	}
+	.transfer {
+		    margin: 10px 99px 0px 0;
+	}
+	.apikey, .developer {
+    padding: 9px;
+}
+	.developer
+	{
+		width:100%;
+	}
+.Rectangle {
+  width: 350px;
+  height: 300px;
+  margin: 42px 0 43px;
+}
+.cardpadding {
+    margin-top: auto;
+    margin-left: 4%;
+    margin-right: 0px;
+}
+.lastcard {
+    margin-top: 63%;
+  }
+
+.use2 {
+    position: absolute;
+    margin-left: 42%;
+    margin-top: 5%;
+}
+.card {
+	margin:0px;
+	margin-bottom: 3%;
+	margin-right:18%;
+	}
+.card-description {
+    width: 319px;
+    height: 62px;
+}
+.parentimage {
+    position: absolute;
+    left: 83%;
+}
+.secondimage {
+    position: absolute;
+    margin-top: 45%;
+}
+.overview {
+	margin: 0 0px 8px 0;
+}
+.usecasemain {
+    padding-top: 7%;
+    padding-right: 1%;
+    padding-left: 6%;
+}
+.padding {
+    padding-left: 10%;
+    padding-right: 5%;
+}
+.cardpadding .card-profile {
+	    margin-top: 60px;
+}
+.overviewsecond
+{
+	padding-left: 10%;
+}
+.cardpadding .card-category {
+	font-size: 18px;
+	}
+	.cardpadding .card-profile .card-avatar {
+		width:50%;
+	}
+	.cardbtn {
+		width: 120px;
+    height: 30px;
+    font-size: 11px;
+	}
+}
+@media(max-width:775px),(max-width:850px)
+{
+.apitransfer ,.headingtext ,.usecasemain h4,.startedmain p 
+	{
+		font-size: 35px;
+	}
+	.transfer {
+		    margin: 10px 99px 0px 0;
+	}
+	.apikey, .developer {
+		padding:10px;
+	}
+	.developer
+	{
+		width:100%;
+	}
+.Rectangle {
+  width: 300px;
+  height: 300px;
+  margin: 42px 0 43px;
+}
+.cardpadding {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 0px;
+}
+.lastcard {
+    margin-top: 82%;
+  }
+
+.use2 {
+    position: absolute;
+    margin-left: 45%;
+    margin-top: 5%;
+}
+.card {
+	margin:0px;
+	margin-bottom: 3%;
+	margin-right:10%;
+	}
+.card-description {
+    width: 250px;
+    height: 80px;
+}
+.secondimage {
+    position: absolute;
+    margin-top: 60%;
+}
+.overview {
+	margin: 0 0px 8px 0;
+}
+.usecasemain {
+    padding-top: 7%;
+    padding-right: 5%;
+}
+.padding {
+    padding-left: 7%;
+    padding-right: 5%;
+}
+.cardpadding .card-profile {
+	    margin-top: 60px;
+}
+.overviewsecond
+{
+	padding-left: 10%;
+}
+.cardpadding .card-category {
+	font-size: 18px;
+	}
+	.cardpadding .card-profile .card-avatar {
+		width:50%;
+	}
+	.cardbtn {
+		width: 120px;
+    height: 30px;
+    font-size: 11px;
+	}
+}
+@media(max-width:768px)
+{
+.parentimage {
+    position: absolute;
+    left: 79%;
+}
+.use2 {
+    position: absolute;
+    margin-left: 40%;
+    margin-top: 5%;
+}
+.padding {
+    padding-left: 8%;
+    padding-right: 3%;
+}
+.cardpadding {
+    margin-top: auto;
+    margin-left: 4%;
+    margin-right: 0px;
+}
+.apikey, .developer {
+    padding: 9px;
+}
+.card-description {
+    width: 316px;
+    height: 80px;
+}
+.usecasemain {
+    padding-top: 7%;
+    padding-right: 2%;
+}
+}
+@media(max-width:576px)
+{
+	.apitransfer ,.headingtext ,.usecasemain h4,.startedmain p 
+	{
+		font-size: 32px;
+	}
+	.transfer {
+		    margin: 10px 99px 0px 0;
+	}
+	.apikey, .developer {
+		padding:10px;
+	}
+.overviewsecond
+{
+	padding-left: 0%;
+}
+.Rectangle {
+  width: 350px;
+  height: 300px;
+  margin: 42px 0 43px;
+}
+.cardpadding {
+    margin-top: 5%;
+    margin-left: 10%;
+    margin-right: 0px;
+}
+.lastcard {
+    margin-top: 130%;
+  }
+  .secondimage
+  {
+  	display: none;
+  }
+  .parentimage
+  {
+  	display: none;
+  }
+  .use2 {
+     position: relative; 
+    margin-left: -1%; 
+     margin-top: 0%; 
+}
+.card {
+	margin:0px;
+	margin-bottom: 3%;
+	margin-right:10%;
+	}
+	.card-description {
+    width: 400px;
+    height: 60px;
+}
+.overview {
+	margin: 0 0px 8px 0;
+}
+.usecasemain {
+    padding-top: 7%;
+    padding-right: 0%;
+}
+.padding {
+    padding-left: 7%;
+    padding-right: 5%;
+}
+.cardpadding .card-profile {
+	    margin-top: 60px;
+}
+.cardpadding .card-profile .card-avatar {
+    width: 32%;
+}
+}
+@media(max-width: 445px)
+{
+.lastcard {
+    margin-top: 180%;
+  }
+  .overviewsecond {
+    padding-left: 5%;
+}
+.text {
+    margin-right:5%;
+}
+  .padding {
+    padding-left: 7%;
+    padding-right: 0%;
+}
+	.card-description {
+    width: 304px;
+    height: 60px;
+    padding-left: 28px;
+}
+.card {
+	margin:0px;
+	margin-bottom: 3%;
+	margin-right:0px;
+	}
+    .cardpadding .card-profile .card-avatar {
+    width: 38%;
+}
+.card .usecasecard {
+    padding: 5px 0 12px 5px;
+}
+.usecasemain p {
+    padding-right: 12%;
+}
+.cardpadding .card-body {
+    padding-top: 4%;
+}
+.cardpadding .card-text {
+    padding: 0% 7% 2% 7%;
+    }
+    .cardpadding {
+    margin-top: -3%;
+    margin-left: 4%;
+    margin-right: 10px;
+}
+.apikey, .developer {
+    margin: 0px 16px 8px 0px;
+}
+.profileovel {
+    width: 124px;
+    height: 120px;
+    background-color: #d8d8d8;
+}
+}
+
+@media (max-width: 413px)
+{
+	.lastcard {
+    margin-top: 191%;
+  }
+  .Rectangle {
+    width: 319px;
+    height: 264px;
+    margin: 42px 0 43px;
+}
+
+}
+@media (max-width: 370px)
+{
+.Rectangle {
+  width: 300px;
+  height: 300px;
+  margin: 42px 0 43px;
+}
+	.lastcard {
+    margin-top: 230%;
+  }
+  	.card-description {
+    width: 256px;
+    height: 90px;
+    padding-left: 20px;
+}
+
+    .cardpadding {
+    margin-top: -8%;
+    margin-left: 4%;
+    margin-right: 10px;
+}
+
+}
+@media (max-width: 320px)
+{
+		.lastcard {
+    margin-top: 260%;
+  }
+  .Rectangle {
+    width: 276px;
+    height: 263px;
+    margin: 42px 0 43px;
+}
+.card-description {
+    width: 243px;
+    height: 90px;
+    padding-left: 20px;
+}
+.profileovel {
+    width: 124px;
+    height: 101px;
+   
+}
+}
