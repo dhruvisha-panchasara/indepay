@@ -30,7 +30,7 @@
 <div class="row servicelogo">
 <div class="col-lg-3 col-md-3 col-sm-3 col-3 "><img alt="img" class="logoimage" src="/o/public-theme/images/home-page/newlogo-bjb.png" /></div>
 
-<div class="col-lg-3 col-md-3 col-sm-3 col-3 "><img alt="img" class="logoimage" src="/o/public-theme/images/home-page/newlogo-dominos.png" /></div>
+<div class="col-lg-3 col-md-3 col-sm-3 col-3 "><img alt="img" class="logoimage" src="/o/public-theme/images/home-page/newchangelogo-dominos.png" /></div>
 
 <div class="col-lg-3 col-md-3 col-sm-3 col-3 "><img alt="img" class="logoimage" src="/o/public-theme/images/home-page/newlogo-edot.png" /></div>
 
@@ -834,6 +834,33 @@ margin-left: 140px;
     transform: translateX(-50%) scale(5);
 }
 }
+ @media (max-width : 1050px)
+ {
+      .indepaytext h3 {
+    padding-top: 0px;
+    margin-top: -6%;
+    margin-left: -15px;
+}
+.benefitscard {
+    padding-top: 16%;
+    padding-right: 9.5%;
+}
+.servicelogo {
+    margin-left: 13px;
+    padding-bottom: 20px;
+}
+.curve::before {
+    content: '';
+    position: absolute;
+    left: 50%;
+    width: 26vh;
+    height: 21vh;
+    background: #f7f7fa;
+    border-radius: 50%;
+    transform-origin: bottom;
+    transform: translateX(-50%) scale(5);
+}
+ }
 /* -----------------992px------------------------------*/
  @media (max-width : 992px)
 {
@@ -1018,6 +1045,7 @@ margin:-5% 0% 0% 16%;
 }
 .card {
     margin-bottom: 10px;
+    height: 97%;
   }
 .card .card-title {
     font-size: 18px;
