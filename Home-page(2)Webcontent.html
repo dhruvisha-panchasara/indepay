@@ -127,14 +127,16 @@
 
 <div class="places">
 <div class="row">
-<div class="col-lg-6 col-md-6 col-sm-12 col-12 placesmain">
+<div class="col-lg-5 col-md-6 col-sm-12 col-12 placesmain">
 <p class="heading">We’re going places here at Indepay. Shouldn’t you be a part of it?</p>
 
 <p class="text">Your journey to be the change in creang a more equal financial system starts here.</p>
 <button class="position" type="button">See Positions</button></div>
 
-<div class="col-lg-6 col-md-6 col-sm-12 col-12"><img class="img-fluid" src="/o/public-theme/images/newhome-page/team1.png" /></div>
-</div>
+<div class="col-lg-7 col-md-6 col-sm-12 col-12"><img class="placesmainimage" src="/o/public-theme/images/newhome-page/illustration-teamwork.png" /></div>
+
+<div class="placerightimage"><img class="placerightimg" src="/o/public-theme/images/newhome-page/element-rightplace.png" />
+<div>&nbsp;</div>
 </div>
 <!-- <-----------------------Last card---------------------------------------------->
 
@@ -421,10 +423,22 @@ font-family: 'Varela Round', sans-serif;
 .places
 {
   padding: 10% 0% 2% 10%;
+   position: relative;
 }
 .placesmain
 {
   margin-top: 7%;
+}
+.placerightimage
+{
+  position: absolute;
+    right: 0;
+    top: 5;
+    top: 24%;
+}
+.placesmainimage {
+    padding-left: 9%;
+    width: 38vw;
 }
 .position
 {
@@ -517,10 +531,14 @@ font-family: 'Varela Round', sans-serif;
   color: #271d70;
   margin-left: 2%;
 }
-.moreoption
+.moreoption {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 34%;
+}
+.load
 {
-  margin-top: 3%;
-  margin-bottom: 5%;
+      width: 100%;
 }
 @media(max-width:1400px)
 {
@@ -548,13 +566,13 @@ font-family: 'Varela Round', sans-serif;
 .indepay h3 {
     margin-top: 4%;
 }
-.heading ,.indepay h3
+.indepay h3
 {
   font-size: 37px;
 }
-.heading
-{
-  font-size: 34px;
+.heading {
+    font-size: 34px;
+    margin-right: 15%;
 }
 .text {
   font-size: 17px;
@@ -576,9 +594,8 @@ font-family: 'Varela Round', sans-serif;
 {
   margin-bottom: 13%;
 }
-.productcard
-{
-  padding: 1% 10% 2% 10%;
+.productcard {
+    padding: 15% 15% 2% 2%;
 }
 .headertext
 {
@@ -597,13 +614,13 @@ font-family: 'Varela Round', sans-serif;
   line-height: 1.56;
   letter-spacing: -0.5px;
   color: #271d70;
+  margin-right: 19%;
 }
 
 .card-category
 {
    opacity: 0.9;
-  font-family: TaraSans;
-  font-size: 28px;
+  font-size: 27px;
   font-weight: bold;
   font-stretch: normal;
   font-style: normal;
@@ -622,7 +639,7 @@ font-family: 'Varela Round', sans-serif;
     text-align: center;
     color: #271d70;
     margin-left: 2%;
-    margin-top: 6%;
+    margin-top: 5%;
 }
 .producut
 {
@@ -634,6 +651,7 @@ font-family: 'Varela Round', sans-serif;
   border-radius: 16px;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
   background-color: #ffffff;
+  height: 86%;
 }
 }
 @media(max-width:1350px)
@@ -763,6 +781,12 @@ font-family: 'Varela Round', sans-serif;
   .firstcardbtn {
     margin-top: 20%;
   }
+   .placerightimage {
+    position: absolute;
+    right: 0;
+    top: 5;
+    top: 17%;
+}
 }
 @media(max-width:1050px)
 {
@@ -788,6 +812,30 @@ font-family: 'Varela Round', sans-serif;
     border-radius: 50%;
     transform-origin: bottom;
     transform: translateX(-50%) scale(5);
+}
+.placesmain {
+    margin-top: 7%;
+    padding-left: 9%;
+}
+.heading {
+    font-size: 30px;
+    margin-right: 2%;
+}
+.engineering .card, .producut .card {
+    height: 84%;
+}
+.firstcardbtn {
+    margin-top: 8%;
+}
+.moreoption {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 27%;
+}
+.topimage {
+    position: absolute;
+    right: 11px;
+    top: -5.5%;
 }
 }
 @media(max-width:992px)
@@ -823,7 +871,7 @@ font-family: 'Varela Round', sans-serif;
     margin-top: 1%;
 }
 .heading {
-    font-size: 54px;
+    font-size: 28px;
 }
 .card-indepaytext {
     padding: 23px;
@@ -837,11 +885,28 @@ font-family: 'Varela Round', sans-serif;
     position: absolute;
     margin-top: 147%;
 }
+.placesmainimage {
+    padding-left: 0%;
+    width: 26vw;
+    padding-top: 32%;
+}
+.productcard {
+    padding: 28% 15% 2% 2%;
+}
+.placerightimage {
+    position: absolute;
+    right: 0;
+    top: 5;
+    top: 16%;
+}
+.engineering .card, .producut .card {
+    height: 89%;
+}
 
 }
 @media(max-width:375px),(max-width:420px),(max-width:576px),(max-width:768px)
 {
-.parentimage ,.rightimage,.leftimage,.mainimage,.topimage{
+.parentimage ,.rightimage,.leftimage,.mainimage,.topimage,.placerightimage{
 
   display: none;
 }
@@ -867,7 +932,7 @@ font-family: 'Varela Round', sans-serif;
     margin-top: -31%;
 }
 .whatindepayimage {
-    margin-left: 12%;
+    margin-left: 20%;
     margin-top: 13%;
 }
 .about .card {
@@ -890,27 +955,46 @@ font-family: 'Varela Round', sans-serif;
     border-radius: 16px;
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
     background-color: #ffffff;
-    height: 94%;
+    height: 87%;
 }
 .card-profile {
     margin-top: 24%;
     height: 91%;
 }
 .card-category {
-  font-size: 24px;
+  font-size: 20px;
   }
   .firstcardbtn {
-    margin-top: 35%;
+    margin-top: 24%;
+    font-size: 14px;
   }
   .joinusmain {
     padding-top: 0%;
     padding-left: 18%;
 }
 .heading {
-    font-size: 40px;
+    font-size: 26px;
+    margin-right: 0%;
 }
 .part {
     font-size: 29px;
+}
+.placesmainimage {
+    padding-left: 0%;
+    width: 36vw;
+    padding-top: 31%;
+}
+.cardbtn
+{
+    font-size: 14px;
+}
+.productcard {
+    padding: 15% 15% 2% 4%;
+}
+.moreoption {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 25%;
 }
 }
 @media(max-width:765px)
@@ -977,6 +1061,11 @@ font-size: 20px;
 }
 .firstcardbtn {
     margin-top: 4%;
+}
+.placesmainimage {
+    padding-left: 9%;
+    width: 77vw;
+  padding-top: 0%;
 }
 }
 @media(max-width:576px)
@@ -1051,7 +1140,10 @@ font-size: 20px;
     transform: scaleX(1.5);
     margin-top: 3%;
 }
-
+ .placesmainimage {
+    padding-left: 9%;
+    width: 83vw;
+}
 
 .whatindepayimg
 {
@@ -1069,7 +1161,18 @@ font-size: 20px;
 .card-indepaytext {
       font-size: 17px;
   }
-
+.engineering .card, .producut .card {
+    padding: 5px;
+    margin-bottom: 11%;
+}
+.moreoption {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    margin-left: 11%;
+}
+.discriptiontext {
+    margin-right: 0%;
+}
 }
 @media(max-width:420px)
 {
@@ -1082,6 +1185,9 @@ font-size: 20px;
 .card-indepaytext {
     padding: 18px;
 
+}
+.headertext {
+    font-size: 27px;
 }
 }
 @media(max-width:410px)
@@ -1125,3 +1231,5 @@ font-size: 20px;
 }
 }
 </style>
+</div>
+</div>
