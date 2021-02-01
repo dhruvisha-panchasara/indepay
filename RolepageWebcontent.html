@@ -3,14 +3,12 @@
 <div class="row firstcard">
 <div class="col-12">
 <div class="card"><img alt="Card image" class="cardimgleft" src="/o/public-theme/images/role-details/element-7.png" />
-<div class="card-header">
-<p><img id="arrowid3" src="/o/public-theme/images/role-details/assets-icon-a-arrow-left.png" />Available roles</p>
-</div>
+<div class="card-header"><a><img class="arrowavailable" id="arrowid3" src="/o/public-theme/images/role-details/assets-icon-a-arrow-left.png" />Available roles</a></div>
 
 <div class="card-body"><img alt="Card image" class="cardimgtop" src="/o/public-theme/images/role-details/changelement-3.png" />
 <div class="row">
 <div class="col-lg-2 col-md-3 col-sm-4 col-12 ovelcol">
-<div class="profileovel"><img class="leftsideimage" src="/o/public-theme/images/role-details/icon-engineers.png" /></div>
+<div class="profileovel"><img class="leftsideimage" src="/o/public-theme/images/role-details/icon-engineering.png" /></div>
 </div>
 
 <div class="col-lg-10 col-md-9 col-sm-8 col-12">
@@ -206,6 +204,7 @@ font-family: 'Varela Round', sans-serif;
   line-height: normal;
   letter-spacing: normal;
   color: #271d70;
+  overflow-x: hidden;
 }
 .portlet-title-text {
     display:none;
@@ -213,6 +212,10 @@ font-family: 'Varela Round', sans-serif;
 .signuping {
     z-index: -1;
     display: none;
+}
+.offer ol, ul, dl {
+    margin-top: 0;
+    margin-bottom: 1rem;
 }
 .profileovel
 {
@@ -261,7 +264,7 @@ font-family: 'Varela Round', sans-serif;
     position: absolute;
     right: -16px;
     top: -9px;
-    height: 70vh;
+    height: 61vh;
 }
 .cardimgleft {
     position: absolute;
@@ -271,6 +274,7 @@ font-family: 'Varela Round', sans-serif;
 .card-header,.card  {
      background-color: white;
      border:none;
+     margin-bottom:0px;
 }
 .heading h3
 {
@@ -297,7 +301,9 @@ font-family: 'Varela Round', sans-serif;
   text-align: center;
   color: #271d70;
   border:none;
-   padding: 13px 33px 16px 35px;
+   padding: 13px 58px 16px 65px;
+   margin-left: 17%;
+    margin-top: 7%;
 }
 .firstcard,.whatdo,.requirement,.willdo,.youhave,.howdo,.offer
 {
@@ -311,6 +317,10 @@ font-family: 'Varela Round', sans-serif;
     position: absolute;
     top: 20%;
     left: -16%;
+}
+.arrowavailable
+{
+   margin-right: 1%;
 }
 @media(max-width:1200px)
 {
@@ -357,6 +367,20 @@ font-family: 'Varela Round', sans-serif;
   .para {
     font-size: 12px;
 }
+}
+@media(max-width:1050px)
+{
+    .cardimgtop {
+    position: absolute;
+    right: -16px;
+    top: -6px;
+    height: 23.7vh;
+}
+  .cvhtml {
+  margin-left: 1%;
+  padding: 13px 50px 11px 50px;
+  }
+  
 }
 @media(max-width:992px)
 {
@@ -412,7 +436,7 @@ font-family: 'Varela Round', sans-serif;
     position: absolute;
     right: -21px;
     top: -10px;
-    height: 56vh;
+    height: 53vh;
     width: 9vw;
 }
 .heading h3 {
@@ -436,7 +460,7 @@ font-family: 'Varela Round', sans-serif;
     margin-left: -2%;
   }
   .cvhtml {
-  margin-left: -3%;
+  margin-left: -4%;
   }
 
 }
@@ -494,17 +518,28 @@ font-family: 'Varela Round', sans-serif;
   margin: 20px 40px 0px 40px;
 }
 .heading h3 {
-    font-size: 23px;
+    font-size: 21px;
     margin-left: 5%;
 }
 .cvhtml {
   font-size: 15px;
   margin-left: -5%;
+  padding: 13px 30px 16px 30px;
   }
   .discription ul li
   {
     margin-left: -25px;
   }
+  .heading
+  {
+     margin-top:5%;
+  }
+  .card {
+    padding: 0px 24px;
+    width: 293px;
+    height: 322px;
+    margin: 0% 0% 5% 0%;
+}
 }
 
 @media(max-width:320px)

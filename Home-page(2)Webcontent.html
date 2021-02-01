@@ -11,7 +11,7 @@
 <p class="lorem">We are an open financial platform that globally empowers people and create equal opportunity</p>
 </div>
 
-<div class="col-lg-6 col-md-6 col-sm-12 col-12"><img class="img-fluid" src="/o/public-theme/images/newhome-page/newhero-image.png" /></div>
+<div class="col-lg-6 col-md-6 col-sm-12 col-12"><img class="img-fluid" src="/o/public-theme/images/newhome-page/hero-image@2x.png" /></div>
 </div>
 
 <div class="mainimage"><img class="mainimg" src="/o/public-theme/images/newhome-page/element-left.png" /></div>
@@ -22,11 +22,11 @@
 
 <div class="about">
 <div class="row">
-<div class="col-lg-5 col-md-12 col-sm-12 col-12 circlemain">
-<div class="whatindepayimage"><img class="whatindepayimg" src="/o/public-theme/images/newhome-page/what-indepay.png" /></div>
+<div class="col-lg-6 col-md-12 col-sm-12 col-12 circlemain">
+<div class="whatindepayimage"><img class="whatindepayimg" src="/o/public-theme/images/newhome-page/what-indepay@2x.png" /></div>
 </div>
 
-<div class="col-lg-7 col-md-12 col-sm-12 col-12 aboutmain">
+<div class="col-lg-6 col-md-12 col-sm-12 col-12 aboutmain">
 <p class="heading">What Indepay is All About</p>
 
 <div class="card">
@@ -56,7 +56,7 @@
 
 <div class="row indepaytext">
 <div class="col-12 text-center">
-<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex consequat.</p>
+<p>Be a part of innovative journey to make digital payments experience in Indonesia to surpass the world. If the very idea resonates in you, it's time for action!</p>
 </div>
 </div>
 
@@ -131,7 +131,7 @@
 <p class="heading">We’re going places here at Indepay. Shouldn’t you be a part of it?</p>
 
 <p class="text">Your journey to be the change in creang a more equal financial system starts here.</p>
-<button class="position" type="button">See Positions</button></div>
+<button class="position" type="button">See Roles</button></div>
 
 <div class="col-lg-7 col-md-6 col-sm-12 col-12"><img class="placesmainimage" src="/o/public-theme/images/newhome-page/illustration-teamwork.png" /></div>
 
@@ -147,10 +147,10 @@
 <div class="logoimage"><img class="leftsideimage" src="/o/public-theme/images/newhome-page/icon-engineering.png" /></div>
 </div>
 
-<div class="col-lg-10 col-md-9 col-sm-7 col-7">
+<div class="col-lg-10 col-md-9 col-sm-7 col-7 engineermain">
 <h2 class="headertext">Engineering</h2>
 
-<p class="discriptiontext">Facilisis a sociosqu a parturient cras cum gravida vitae vestibulum velit nascetur vestibulum faucibus nec fringilla ultrices sapien a fermentum facilisis rhoncus.</p>
+<p class="discriptiontext">Create and maintain application features in order to meet product development and consumer requirements and working based on agile processes.</p>
 </div>
 </div>
 
@@ -187,10 +187,10 @@
 <div class="logoimage"><img class="leftsideimage" src="/o/public-theme/images/newhome-page/icon-product.png" /></div>
 </div>
 
-<div class="col-lg-10 col-md-9 col-sm-7 col-7">
+<div class="col-lg-10 col-md-9 col-sm-7 col-7 productmain">
 <h2 class="headertext">Product</h2>
 
-<p class="discriptiontext">Facilisis a sociosqu a parturient cras cum gravida vitae vestibulum velit nascetur vestibulum faucibus nec fringilla ultrices sapien a fermentum facilisis rhoncus.</p>
+<p class="discriptiontext">Manage priorities from marketing, sales and engineering team when developing product features to achieve most business goals possible.</p>
 </div>
 </div>
 
@@ -231,6 +231,7 @@
   margin:0;
   padding:0;
 }
+
 html ,body
 {
   height :100%;
@@ -241,6 +242,7 @@ font-family: 'Varela Round', sans-serif;
   line-height: normal;
   letter-spacing: normal;
   color: #271d70;
+  overflow-x: hidden;
 }
 .portlet-title-text {
     display: none;
@@ -294,7 +296,7 @@ font-family: 'Varela Round', sans-serif;
  height: 100%;
  overflow: hidden;
  align-items: center;
- margin-top: 11%;
+ margin-top: 14%;
 }
 .about::before {
   content: '';
@@ -313,12 +315,17 @@ font-family: 'Varela Round', sans-serif;
   margin-bottom: 30%;
   right:0;
   z-index:2;
+  top: 12.7%;
+}
+.aboutleftiamge
+{
+    width: 7vw;
 }
 
-.mainimage
-{
-      position: absolute;
-    left: 7%;
+.mainimage {
+    position: absolute;
+    left: 3%;
+    top: 12%;
 }
 .heading
 {
@@ -375,13 +382,13 @@ font-family: 'Varela Round', sans-serif;
   border-radius: 12px;
   background-color: #a1f0f7;
   color:#271d70;
-  font-size: 20px;
+  font-size: 18px;
   font-weight: bold;
 }
 .about .card
 {
   border-radius: 12px;
-    margin: 0px 173px 11px 0px;
+    margin: 0px 245px 11px 0px;
 }
 .benefits {
     margin-top: 4%;
@@ -395,8 +402,9 @@ font-family: 'Varela Round', sans-serif;
 }
 .whatindepayimage
 {
-  margin-left: 21%;
-  margin-top: 13%;
+    padding-left: 20%;
+    margin-top: 14%;
+    width: 47vw;
 }
 .indepaytext p
 {
@@ -427,7 +435,7 @@ font-family: 'Varela Round', sans-serif;
 }
 .placesmain
 {
-  margin-top: 7%;
+  margin-top: 4%;
 }
 .placerightimage
 {
@@ -481,6 +489,8 @@ font-family: 'Varela Round', sans-serif;
   box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
   margin-top: 1%;
   border-radius: 16px;
+  height: 88%;
+  border:none;
 }
 .card-category
 {
@@ -540,6 +550,138 @@ font-family: 'Varela Round', sans-serif;
 {
       width: 100%;
 }
+.firstcardbtn {
+    padding: 13px 36px 14px 38px;
+    border-radius: 24px;
+    background-color: #a1f0f7;
+    border: none;
+    font-size: 16px;
+    font-weight: bold;
+    text-align: center;
+    color: #271d70;
+    margin-left: 2%;
+    margin-top: 5%;
+}
+.engineering .card,.producut .card
+{
+  padding: 32px;
+  border-radius: 16px;
+  box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+  background-color: #ffffff;
+  height: 86%;
+  border:none;
+}
+.engineermain,.productmain
+{
+    padding-top: 4px;
+    padding-bottom: 3%;
+
+}
+@media(min-width:1430px)
+{
+    .productcard
+{
+margin-top: 14%;
+padding: 0% 10% 2% 2%;
+}
+.producut {
+    margin-top: 4%;
+}
+.engineering .card,.producut .card
+{
+width: 100%;
+}
+.parentimage {
+    position: absolute;
+    margin-bottom: 30%;
+    right: 0;
+    z-index: 2;
+    top: 12.4%;
+}
+
+.discriptiontext
+{
+opacity: 0.8;
+    font-size: 18px;
+    line-height: 1.56;
+    letter-spacing: -0.5px;
+    color: #271d70;
+    margin-right: 26%;
+  }
+  .placesmainimage {
+    padding-left: 9%;
+    width: 43vw;
+}
+.placesmainimage {
+    padding-left: 9%;
+    width: 39vw;
+}
+
+.placerightimage {
+    position: absolute;
+    right: 0;
+    top: 24%;
+}
+.text {
+    font-size: 17px;
+    line-height: 1.56;
+    padding-right: 35%;
+    opacity: 0.8;
+}
+.joinusmain {
+    padding-top: 8%;
+    padding-left: 16%;
+}
+.about {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    align-items: center;
+    margin-top: 9.5%;
+}
+.mainimage {
+    position: absolute;
+    left: 4%;
+    top: 12%;
+}
+.about .text{
+
+    padding-bottom: 15%;
+
+}
+.aboutmain {
+    padding-top: 10%;
+}
+
+.aboutmain {
+    padding-top: 10%;
+}
+.card-indepaytext {
+    padding: 20px;
+    border-radius: 12px;
+    background-color: #a1f0f7;
+    color: #271d70;
+    font-size: 18px;
+    font-weight: bold;
+}
+.leftimage {
+    position: absolute;
+    margin-top: 58%;
+}
+.card-category {
+    font-size: 29px;
+    font-weight: bold;
+    line-height: 1.25;
+    text-align: left;
+    margin-left: 2%;
+}
+.engineermain, .productmain {
+    padding-top: 4px;
+    margin-left: -2%;
+    padding-bottom: 3%;
+}
+}
 @media(max-width:1400px)
 {
   .leftimg
@@ -548,11 +690,11 @@ font-family: 'Varela Round', sans-serif;
   }
 .leftimage {
     position: absolute;
-    margin-top: 70%;
+    margin-top: 73%;
 }
-  .joinusmain {
+.joinusmain {
     padding-top: 10%;
-    padding-left: 18%;
+    padding-left: 12%;
 }
 
 .Oval {
@@ -561,7 +703,7 @@ font-family: 'Varela Round', sans-serif;
 
 .aboutmain {
     padding-top: 11%;
-    padding-left: 11%;
+
 }
 .indepay h3 {
     margin-top: 4%;
@@ -575,8 +717,13 @@ font-family: 'Varela Round', sans-serif;
     margin-right: 15%;
 }
 .text {
-  font-size: 17px;
+  font-size: 16px;
   padding-right: 34%;
+
+}
+.about .text
+{
+      padding-bottom: 15%;
 }
 .benefitscard {
     padding: 0% 11%;
@@ -609,7 +756,6 @@ font-family: 'Varela Round', sans-serif;
 .discriptiontext
 {
    opacity: 0.8;
-  font-family: TaraSans;
   font-size: 18px;
   line-height: 1.56;
   letter-spacing: -0.5px;
@@ -792,14 +938,26 @@ font-family: 'Varela Round', sans-serif;
 {
     .leftimage {
     position: absolute;
-    margin-top: 114%;
+    margin-top: 110%;
+}
+.joinusmain {
+    padding-top: 2%;
+    padding-left: 18%;
 }
 .benefits {
-    margin-top: 2%;
+    margin-top: -1%;
 }
 .aboutmain {
-    padding-top: 11%;
+    padding-top: 8%;
     padding-left: 3%;
+}
+.about .text {
+    padding-bottom: 17%;
+}
+.mainimage {
+    position: absolute;
+    left: 7%;
+    top: 9%;
 }
 .about::before {
     margin-top: 27%;
@@ -807,25 +965,42 @@ font-family: 'Varela Round', sans-serif;
     position: absolute;
     left: 50%;
     width: 31vh;
-    height: 10vh;
+    height: 13vh;
     background: #f7f7fa;
     border-radius: 50%;
     transform-origin: bottom;
     transform: translateX(-50%) scale(5);
 }
-.placesmain {
-    margin-top: 7%;
-    padding-left: 9%;
+.parentimage {
+    position: absolute;
+    margin-bottom: 30%;
+    right: 0;
+    z-index: 2;
+    top: 10%;
+}
+.placesmainimage {
+     padding-left: 0%;
+    width: 37vw;
+    padding-top: 11%;
+}
+.placerightimage {
+    position: absolute;
+    right: 0;
+    top: 22%;
 }
 .heading {
     font-size: 30px;
     margin-right: 2%;
 }
 .engineering .card, .producut .card {
-    height: 84%;
+    height: 91%;
+    padding: 11px;
 }
 .firstcardbtn {
-    margin-top: 8%;
+    margin-top: 16%;
+}
+.card-category {
+    font-size: 22px;
 }
 .moreoption {
     margin-top: 3%;
@@ -866,6 +1041,27 @@ font-family: 'Varela Round', sans-serif;
 }
 .whatindepayimg {
     width: 60vw;
+}
+
+.whatindepayimage {
+    margin-top: 8%;
+    width: 80vw;
+    margin-left: 0%;
+}
+.mainimage {
+    position: absolute;
+    left: 7%;
+    top: 7%;
+}
+.aboutleftiamge {
+    width: 11vw;
+}
+.parentimage {
+    position: absolute;
+    margin-bottom: 30%;
+    right: 0;
+    z-index: 2;
+    top: 7%;
 }
 .benefits {
     margin-top: 1%;
@@ -932,8 +1128,13 @@ font-family: 'Varela Round', sans-serif;
     margin-top: -31%;
 }
 .whatindepayimage {
-    margin-left: 20%;
-    margin-top: 13%;
+    margin-left: 1%;
+    width: 91vw;
+    margin-top: 11%;
+}
+.aboutmain {
+    padding-top: 14%;
+    padding-left: 11%;
 }
 .about .card {
     border-radius: 12px;
@@ -973,7 +1174,7 @@ font-family: 'Varela Round', sans-serif;
     padding-left: 18%;
 }
 .heading {
-    font-size: 26px;
+    font-size: 40px;
     margin-right: 0%;
 }
 .part {
@@ -1023,7 +1224,7 @@ font-family: 'Varela Round', sans-serif;
   width: 69vw;
 }
 .whatindepayimage {
-    margin-left: 17%;
+    margin-left: -4%;
     margin-top: 13%;
 }
 .aboutmain {
@@ -1145,9 +1346,10 @@ font-size: 20px;
     width: 83vw;
 }
 
-.whatindepayimg
-{
-  width: 69vw;
+.whatindepayimage {
+    margin-left: -13%;
+    margin-top: 4%;
+    width: 89vw;
 }
 
 .benefits {
@@ -1176,11 +1378,19 @@ font-size: 20px;
 }
 @media(max-width:420px)
 {
+    .joinusmain {
+    padding-top: 0%;
+    padding-left: 13%;
+}
+.about .card {
+    border-radius: 12px;
+    margin: 0px 33px 11px 0px;
+}
   .benefits {
     margin-top: -3%;
 }
 .heading {
-    font-size: 26px;
+    font-size: 24px;
 }
 .card-indepaytext {
     padding: 18px;
@@ -1189,6 +1399,15 @@ font-size: 20px;
 .headertext {
     font-size: 27px;
 }
+.placesmain {
+    margin-top: -1%;
+    padding-left: 5%;
+}
+.whatindepayimage {
+    margin-left: -5%;
+    margin-top: 15%;
+    width: 98vw;
+}
 }
 @media(max-width:410px)
 {
@@ -1196,8 +1415,9 @@ font-size: 20px;
     margin-top: -59%;
 }
 .whatindepayimage {
-    margin-left: 15%;
-    margin-top: 13%;
+    margin-left: -5%;
+    margin-top: 10%;
+    width: 89vw;
 }
 }
 @media(max-width:375px)

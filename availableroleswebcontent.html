@@ -1,7 +1,7 @@
 <link href="https://fonts.gstatic.com" rel="preconnect" />
 <link href="https://fonts.googleapis.com/css2?family=Varela+Round&amp;display=swap" rel="stylesheet" />
 <div class="row roles">
-<div class="topimage"><img class="topimg" src="/o/public-theme/images/role-page/topimg.png" /></div>
+<div class="topimage"><img class="topimg " src="/o/public-theme/images/role-page/topimg.png" /></div>
 
 <div class="col-12 text-center">
 <h3>Available Roles</h3>
@@ -16,13 +16,13 @@
 
 <div class="row engineeringmain">
 <div class="col-lg-2 col-md-3 col-sm-5 col-5">
-<div class="profileovel"><img class="leftsideimage" src="/o/public-theme/images/role-page/icon-engineers.png" /></div>
+<div><img class="leftsideimage" src="/o/public-theme/images/role-page/icon-engineering.png" /></div>
 </div>
 
-<div class="col-lg-10 col-md-9 col-sm-7 col-7">
+<div class="col-lg-10 col-md-9 col-sm-7 col-7 engineeringtext">
 <h2>Engineering</h2>
 
-<p>Facilisis a sociosqu a parturient cras cum gravida vitae vestibulum velit nascetur vestibulum faucibus nec fringilla ultrices sapien a fermentum facilisis rhoncus.</p>
+<p>Create and maintain application features in order to meet product development and consumer requirements and working based on agile processes.</p>
 </div>
 </div>
 
@@ -63,7 +63,7 @@
 <div class="col-lg-10 col-md-9 col-sm-7 col-7">
 <h2>Product</h2>
 
-<p>Facilisis a sociosqu a parturient cras cum gravida vitae vestibulum velit nascetur vestibulum faucibus nec fringilla ultrices sapien a fermentum facilisis rhoncus.</p>
+<p>Manage priorities from marketing, sales and engineering team when developing product features to achieve most business goals possible.</p>
 </div>
 </div>
 
@@ -150,13 +150,13 @@
 <div class="business">
 <div class="row businessmain">
 <div class="col-lg-2 col-md-3 col-sm-5 col-5">
-<div class="profileovel"><img class="leftsideimage" src="/o/public-theme/images/role-page/icon-business.png" /></div>
+<div><img class="leftsideimage" src="/o/public-theme/images/role-page/icon-business.png" /></div>
 </div>
 
-<div class="col-lg-10 col-md-9 col-sm-7 col-7">
+<div class="col-lg-10 col-md-9 col-sm-7 col-7 businesstext">
 <h2>Business</h2>
 
-<p>Facilisis a sociosqu a parturient cras cum gravida vitae vestibulum velit nascetur vestibulum faucibus nec fringilla ultrices sapien a fermentum facilisis rhoncus.</p>
+<p>Build connection with industry key players by solving their problems using our products.</p>
 </div>
 </div>
 
@@ -227,35 +227,39 @@
 </div>
 <style type="text/css">html ,body
 {
-	height :100%;
-	width: 100%;
+  height :100%;
+  width: 100%;
  font-family: 'Varela Round', sans-serif;
   font-stretch: normal;
   font-style: normal;
   line-height: normal;
   letter-spacing: normal;
   color: #271d70;
+  overflow-x: hidden;
 }
 .portlet-title-text {
     display:none;
 }
 .roles
 {
-	position: relative;
+  position: relative;
 }
 .signuping {
     display: none;
 }
 .topimage
 {
-	position: absolute;
+  position: absolute;
     top: -74px;
-	right:0;
+  right:0;
 }
-
+.engineeringmain,.producutmain,.businessmain
+{
+    margin-bottom: 3%;
+}
 .roles h3
 {
-	font-size: 48px;
+  font-size: 48px;
   font-weight: bold;
   line-height: 1.17;
   letter-spacing: -0.5px;
@@ -275,28 +279,29 @@
 }
 .engineeringmain h2,.producutmain h2,.businessmain h2
 {
-	 font-size: 36px;
+   font-size: 36px;
   font-weight: bold;
   line-height: 1.11;
   letter-spacing: -0.5px;
 }
 .engineeringmain p,.producutmain p,.businessmain p,.card-text
 {
-	 opacity: 0.8;
+   opacity: 0.8;
   font-size: 18px;
   line-height: 1.56;
 }
 .card
 {
-	padding: 0px 12px;
+  padding: 0px 12px;
     border-radius: 16px;
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
     width: 515px;
     height: 254px;
+    border: none;
 }
 .card-category
 {
-	 opacity: 0.9;
+   opacity: 0.9;
   font-size: 28px;
   font-weight: bold;
   line-height: 1.43;
@@ -304,7 +309,7 @@
 }
 .cardbtn,.firstcardbtn
 {
-	border-radius: 24px;
+  border-radius: 24px;
   background-color: #a1f0f7;
    opacity: 0.9;
   font-size: 16px;
@@ -314,14 +319,13 @@
   border:none;
    padding: 13px 33px 16px 35px;
 }
-
 .engineering,.producut,.business
 {
-	margin: 74px 150px 0px 150px;
+  margin: 74px 150px 0px 150px;
 }
 .engineering
 {
-	position: relative;
+  position: relative;
 }
 .firstimage {
     position: absolute;
@@ -329,17 +333,36 @@
     left: -7%;
 }
 .secondimage {
-	position: absolute;
-	left: -15%;
-	top: -18%;
+  position: absolute;
+  left: -15%;
+  top: -18%;
 }
-.engineeringcard,.producutcard,.businesscard
-{
-	margin-top: 45px;
-}
+
 .firstcardbtn
 {
         margin-top: 6%;
+}
+
+.engineeringtext,.businesstext,.producttext
+{
+    margin-left: -2%;
+    margin-top: 1%;
+    padding-right: 11%;
+}
+@media(min-width:1420px)
+{
+    .card {
+    padding: 0px 12px;
+    border-radius: 16px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+    width: 566px;
+    height: 254px;
+}
+.engineeringtext, .businesstext, .producttext {
+    margin-left: -4%;
+    margin-top: 1%;
+    padding-right: 11%;
+}
 }
 @media(max-width:1200px)
 {
@@ -370,11 +393,29 @@ width: 10vw;
 }
 .topimg
 {
-	width: 20vw;
+  width: 20vw;
 }
 
 .firstcardbtn {
     margin-top: 2%;
+}
+.mid {
+    font-size: 12px;
+    font-weight: 500;
+    color: #271d70;
+}
+}
+@media(max-width:1050px)
+{
+    .card {
+    padding: 0px 24px;
+    border-radius: 16px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+    width: 389px;
+    height: 291px;
+}
+.card-category {
+font-size: 23px;
 }
 }
 @media(max-width:992px)
@@ -407,11 +448,11 @@ width: 10vw;
 
 .firstcardbtn {
     margin-top: 8%;
-}	
+} 
 }
 @media(max-width:768px)
 {
-	.engineering, .producut, .business {
+  .engineering, .producut, .business {
     margin: 74px 100px 0px 100px;
 }
 .card {
@@ -419,7 +460,7 @@ width: 10vw;
     border-radius: 16px;
     box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
     width: 285px;
-    height: 406px;
+    height: 348px;
 }
 .secondimg,.firstimg
 {
@@ -427,7 +468,7 @@ width: 10vw;
 }
 .topimg
 {
-	width: 20vw;
+  width: 20vw;
 }
 .secondimage {
     position: absolute;
@@ -440,30 +481,35 @@ width: 10vw;
     left: -9%;
 }
 .card-category {
-    font-size: 26px;
+    font-size: 23px;
 }
 .firstcardbtn {
-    margin-top: 28%;
+    margin-top: 13%;
 }
 }
 @media(max-width:360px),(max-width:568px),(max-width:760px)
 {
-	.firstimage {
- 	display: none;
-	}
+  .firstimage {
+  display: none;
+  }
 .secondimage {
-   	display: none;
+    display: none;
 }
 .topimage{
-   	display: none;
+    display: none;
 }
 }
 @media(max-width:760px)
 {
-	.engineering, .producut, .business {
-    margin: 74px 84px 0px 59px;
-	}
-	.card {
+.engineering, .producut, .business {
+    margin: 74px 59px 0px 59px;
+}
+.engineeringtext, .businesstext, .producttext {
+    margin-left: -8%;
+    margin-top: 1%;
+    padding-right: 0%;
+}
+  .card {
     margin: 5% 0% 0% 5%;
 }
 .card {
@@ -474,85 +520,125 @@ width: 10vw;
     height: 262px;
 }
 .engineeringcard, .producutcard, .businesscard {
-		margin-top: 0px;
-	}
-	.profileovel {
-		margin-left: 25%;
-	}
-	.firstcardbtn {
+    margin-top: 0px;
+  }
+  .profileovel {
+    margin-left: 25%;
+  }
+  .firstcardbtn {
     margin-top: 7%;
+}
+}
+@media(max-width:686px)
+{
+    .card {
+    padding: 0px 24px;
+    border-radius: 16px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+    width: 490px;
+    height: 262px;
+}
+}
+@media(max-width:600px)
+{
+    .card {
+    padding: 0px 24px;
+    border-radius: 16px;
+    box-shadow: 0 7px 15px 0 rgba(0, 0, 0, 0.1);
+    width: 446px;
+    height: 262px;
 }
 }
 @media(max-width:576px)
 {
-	.engineering, .producut, .business {
+  .engineering, .producut, .business {
     margin: 74px 84px 0px 59px;
 }
-	.roles h3 {
-		font-size: 35px;
-	}
-	.card {
+  .roles h3 {
+    font-size: 35px;
+  }
+  .card {
     padding: 0px 24px;
     width: 396px;
     height: 243px;
     margin: 5% 0% 0% 5%;
 }
-	.engineeringmain h2, .producutmain h2, .businessmain h2 {
-		font-size: 30px;
-	}
-	.card-category {
-		font-size: 24px;
-	}
-	.engineeringmain p, .producutmain p, .businessmain p, .card-text {
-		opacity: 0.7;
-		font-size: 16px;
-		line-height: 1.56;
-	}
-	.engineeringcard, .producutcard, .businesscard {
-		margin-top: 0px;
-	}
-	.profileovel {
-		margin-left: 5%;
-	}
+  .engineeringmain h2, .producutmain h2, .businessmain h2 {
+    font-size: 30px;
+  }
+  .card-category {
+    font-size: 24px;
+  }
+  .engineeringmain p, .producutmain p, .businessmain p, .card-text {
+    opacity: 0.7;
+    font-size: 16px;
+    line-height: 1.56;
+  }
+  .engineeringcard, .producutcard, .businesscard {
+    margin-top: 0px;
+  }
+  .profileovel {
+    margin-left: 5%;
+  }
+  .arrowavailable {
+    margin-right: 3%;
+}
 
 }
 @media(max-width:420px)
 {
-	.engineering, .producut, .business {
-		margin: 27px 32px 10px 37px;
-	}
-
-	.card {
-		padding: 0px 24px;
-		width: 358px;
-		height: 284px;
-		  margin: 5% 0% 0% 0%;
-	}
-	
+  .engineering, .producut, .business {
+    margin: 27px 32px 10px 37px;
+  }
+  .engineeringtext, .businesstext, .producttext {
+    margin-left: -2%;
+    margin-top: 1%;
+    padding-right: 5%;
+}
+.card {
+    padding: 0px 15px;
+    width: 340px;
+    height: 269px;
+    margin: 0% 0% 5% 0%;
+}
+  .card-category {
+    font-size: 21px;
+}
+.firstcardbtn {
+    margin-top: 5%;
+}
 }
 @media(max-width:375px)
 {
-	.engineering, .producut, .business
-	{
-		margin: 27px 0px 10px 37px;
-	}
-	.card {
-		padding: 0px 24px;
-		width: 312px;
-		height: 303px;
-		 margin: 5% 0% 0% 0%;
-	}
+.engineering, .producut, .business {
+    margin: 27px 20px 10px 37px;
+}
+.engineeringmain h2, .producutmain h2, .businessmain h2 {
+    font-size: 29px;
+}
+    .card {
+    padding: 0px 24px;
+    width: 293px;
+    height: 322px;
+    margin: 0% 0% 5% 0%;
+}
+  .firstcardbtn {
+    margin-top: 18%;
+}
 }
 @media(max-width:320px)
 {
 .card {
-    padding: 0px 24px;
-    width: 273px;
+    padding: 0px 10px;
+    width: 256px;
     height: 360px;
     margin: 5% 0% 0% 0%;
 }
 .engineeringmain h2, .producutmain h2, .businessmain h2 {
-    font-size: 26px;
+    font-size: 25px;
+}
+engineering, .producut, .business {
+    margin: 27px 7px 10px 17px;
 }
 }
 </style>
